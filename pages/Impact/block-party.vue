@@ -44,7 +44,7 @@ export default defineComponent({
       width 100%
       position relative 
       padding-left 40px
-      background-image: url('~assets/images/CBP1.JPG');
+      background-image: url('~assets/images/CBP1.jpg');
       background-size: cover;
       background-position 50% 40%;
       background-color var(--primary)

@@ -65,7 +65,7 @@ export default defineComponent({
           image: require('~/assets/images/F.jpg'),
         },
         {
-          image: require('~/assets/images/Ac.jpg'),
+          image: require('~/assets/images/Ac.JPG'),
         },
         {
           image: require('~/assets/images/H.jpg'),

@@ -110,7 +110,7 @@ export default defineComponent({
       .vueperslide
         background-position center 20%;
         background-size contain;
-        background-repeat none;
+        background-repeat no-repeat;
         &:before
           content: ''
           display block

@@ -1,0 +1,30 @@
+.library__list
+  display flex
+  flex-wrap wrap
+  margin-top: px-to-rem(20px)
+  background-color lighten($dark-color, 10%)
+  color white;
+  &-header
+    display flex
+    width 100%
+    font-size: px-to-rem(18px)
+    color #cdcdcd;
+    justify-content: space-between
+    text-align: center
+    .library__list-item
+      cursor pointer !important
+      &:hover
+        color white;
+  &-row
+    display flex
+    justify-content: space-between
+    width 100%
+    padding px-to-rem(2px) 0
+    border-top solid 1px #676767
+    text-align: center
+    cursor pointer
+    &:hover
+      background-color lighten($dark-color, 15%)
+  &-item
+    padding 2px
+    width 100%

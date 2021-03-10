@@ -1,0 +1,30 @@
+{
+  "name": "blackbuilders",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.2",
+    "@nuxtjs/composition-api": "^0.19.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.8.3",
+    "global": "^4.4.0",
+    "googleapis": "^67.0.0",
+    "netlify-cli": "^3.7.1",
+    "nuxt": "^2.14.12",
+    "vueperslides": "^2.13.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.12",
+    "@nuxt/typescript-build": "^2.0.4",
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "fibers": "^5.0.0",
+    "stylus": "^0.54.8",
+    "stylus-loader": "4.3.3"
+  }
+}

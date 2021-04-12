@@ -7,9 +7,9 @@
           :key="i"
           :image="slide.image"
           > 
-            <template v-slot:content>
+            <!-- <template v-slot:content>
                  <img src="~/assets/images/logo.png" class="hero__logo mb-4 pl-8" alt="360 logo" />             
-            </template>
+            </template> -->
           </vueper-slide>
       </vueper-slides>
 

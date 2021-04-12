@@ -4,12 +4,20 @@
       <div class="nav__items">
         <div class="nav__items-left">
           <router-link class="logo" to="/">
-            <i class="material-icons logo-icon"></i> 
-            <span class="title">360 Detroit, Inc.</span> 
+            <img src="~/assets/images/logo.png" />
+            <span class="title text-4xl md:text-2xl lg:text-4xl font-bold">360 Detroit, Inc.</span> 
           </router-link>
         </div>
-        <div class="nav__items-right"> 
-          <button title="menu" class="nav__menu text-color" @click.stop="openMenu"><i class="material-icons">menu</i></button>
+        <div class="nav__items-right "> 
+          <button title="menu" class="nav__menu text-color inline-block md:hidden" @click.stop="openMenu"><i class="material-icons">menu</i></button>
+          <ul class="nav__links hidden md:flex items-center h-full font-bold text-sm">
+            <li><router-link class="h-full fancy" :to="routes.home.path"><i class="material-icons">home</i></router-link></li>
+            <li><router-link class="h-full fancy" :to="routes.about.path">Our Story</router-link></li> 
+            <li><router-link class="h-full fancy" :to="routes.getInvolved.path">Get Involved</router-link></li> 
+            <li><router-link class="h-full fancy" :to="routes.whatshappening.path">What's Happening</router-link></li> 
+            <li><router-link class="h-full fancy" :to="routes.contact.path">Contact Us</router-link></li> 
+            <li><router-link class="h-full fancy" :to="routes.community.path">In The Community</router-link></li> 
+          </ul>
         </div>
       </div>
     </nav>
@@ -103,7 +111,6 @@ header
     &.unpinned
       transform: translateY(-100%);
     &__menu 
-      display inline-block; 
       outline none;
       border none;        
       color var(--primary);  
@@ -117,19 +124,13 @@ header
       align-items center;
       height 100%;
       .title 
-        font-size px-to-rem(40px); 
         color var(--primary);  
-        margin-right px-to-rem(8px);
         position relative 
         line-height 1.5
-      &-icon 
-        font-size px-to-rem(50px);
-        color var(--primary);
-        position relative
-        height auto; 
+      img 
+        height 100%;
         margin-right px-to-rem(8px);
-        line-height 1.5
-        display inline
+        display inline-block
       &:after 
         display:none;
       &:hover 
@@ -144,16 +145,29 @@ header
         padding 0 px-to-rem(15px) 0 px-to-rem(30px)
         height 100%;
         box-sizing border-box 
-        width 100%;
+        width 460px;
       &-right 
         padding px-to-rem(3px) px-to-rem(15px) px-to-rem(3px) px-to-rem(15px)
         height 100%;
         box-sizing border-box
         text-align right;
         display flex;
-        width 400px
+        width calc(100% - 460px);
         align-items center
-        justify-content flex-end
+        justify-content flex-end    
+    a
+      color var(--text-color);  
+      &.nuxt-link-exact-active
+        &:after 
+          max-width 100%
+          z-index -1
+
+  .menu 
+    background-color var(--dark-color) 
+    z-index 81
+    will-change: transform;
+    transition: transform 200ms linear;
+    transform: translateX(100%);
     a
       font-weight bold
       color var(--text-color) !important
@@ -163,13 +177,6 @@ header
         font-size 24px !important;
       &.router-link-exact-active 
         color var(--text-color);  
-
-  .menu 
-    background-color var(--dark-color) 
-    z-index 81
-    will-change: transform;
-    transition: transform 200ms linear;
-    transform: translateX(100%);
     a,button 
       color var(--text-color) !important
     &.open
@@ -177,9 +184,6 @@ header
 
   +for_breakpoint(xs) 
     .nav 
-      .logo 
-        img 
-          max-height 24px;
       &__items 
         justify-content space-between;
         width 100%;

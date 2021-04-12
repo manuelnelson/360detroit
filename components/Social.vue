@@ -27,7 +27,7 @@ export default defineComponent({
 })
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   .text-primary
     color var(--primary) !important
   .lni

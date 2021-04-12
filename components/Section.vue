@@ -71,7 +71,7 @@
   <section class="white relative z-depth-2 z-40 rich-text text-center">
     <div class="md:w-2/3 m-auto">
       <h3 class="text-5xl mb-4 text--secondary">Community Voices on 360 Detroit, Inc.’s Impact</h3>
-      <vueper-slides fixed-height="700px">
+      <vueper-slides fixed-height="500px">
         <vueper-slide
           v-for="(slide, i) in slides"
           :key="i"
@@ -167,11 +167,11 @@ export default defineComponent({
     .vueperslide
       background-color var(--primary)
       color white
-      height: 600px;
+      height: 500px;
     figure
       max-width 700px;
       blockquote
-        font-size 24px
+        font-size 18px
         font-weight bold
 
 </style>>

@@ -7,7 +7,7 @@
         </h1>
       </div>
     </div>
-    <section class="white relative p-10 z-depth-2 z-40 center">
+    <section class="white relative p-4 md:p-10 z-depth-2 z-40 center">
           <h3  class="text-5xl mb-4 align-center text--secondary">3 Ways to Support Our Vision</h3>
           <div  class="flex justify-center m-auto flex-wrap">
             <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 blue">              
@@ -39,7 +39,7 @@
           </div>
       </section>
       <section class="blue p-8 flex relative z-depth-2 z-40 flex-wrap md:flex-no-wrap">
-        <div class="w-full md:w-3/5 p-6 rich-text">
+        <div class="w-full md:w-3/5 md:p-6 rich-text">
           <h3 class="text-5xl mb-4">Calling All Volunteers – We Need YOU!</h3>
           <p>Volunteers make 360 Detroit, Inc. go and grow.  Please consider assisting us.  Whether you have one hour or many more, there are a variety of ways that you can help.  What do you love to do?  Maybe that skill or talent can assist 360 Detroit, Inc.    Check out the volunteer opportunities below.  Think you have something that would be of benefit to us, contact us. 
           </p>

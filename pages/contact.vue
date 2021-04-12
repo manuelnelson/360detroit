@@ -1,12 +1,12 @@
 <template>
   <div class="project">    
-    <div class="hero hero-contact flex items-center">
+    <!-- <div class="hero hero-contact flex items-center">
       <div>
         <h1 class="md:ml-10 text-6xl text-white relative flex items-center">
           Contact Us
         </h1>
       </div>
-    </div>
+    </div> -->
     <div class="rich-text project-text m-auto mt-10">
       <form class="form-wrapper mt-8 mb-8" @submit.prevent="saveContact" lazy-validation>
           <h3 class="text-4xl">Questions?</h3>

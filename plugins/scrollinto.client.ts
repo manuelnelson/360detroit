@@ -18,6 +18,7 @@ Vue.directive('scrollinto', {
       el.classList.add('scroll-into-view')
       window.addEventListener("scroll", () => checkNodeVisibility(el));
       window.addEventListener("resize", () => checkNodeVisibility(el));        
+      checkNodeVisibility(el);
       //el.focus()
     },
     unbind(el, binding, vnode) {

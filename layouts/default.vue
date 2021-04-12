@@ -31,7 +31,7 @@ export default defineComponent({
       globalStore.state.menuIsOpen = false;
     }
     const isFullSize = computed(() => {
-      return useContext().route.value.path.indexOf('about') == -1
+      return true; //useContext().route.value.path.indexOf('about') == -1
     })
 
 

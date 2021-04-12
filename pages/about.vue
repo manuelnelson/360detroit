@@ -1,7 +1,11 @@
 <template>
-  <article class="pt-10">
-    <div class="text-center">
-      <h1 class="mb-8 m-auto text-6xl">About Us</h1> 
+  <article class="project">
+    <div class="hero about flex items-center">
+      <div>
+        <h1 class="md:ml-10 text-6xl text-white relative flex items-center">
+          Our Story
+        </h1>
+      </div>
     </div>
     <section class="about flex flex-wrap   md:flex-no-wrap">
       <div class="about__image mx-auto w-full md:w-2/5 mt-8 pr-6">
@@ -117,6 +121,25 @@ export default defineComponent({
 </script>
 
 <style lang="stylus">
+  .project
+    .hero.about
+      height 600px 
+      width 100%
+      position relative 
+      padding-left 40px
+      background-image: url('~assets/images/About.jpg');
+      background-size: cover;
+      background-position center;
+      background-color var(--primary)
+      &:before
+        content: ''
+        display block
+        height 100%
+        width 100%
+        left 0
+        top 0
+        position absolute
+        background-color rgba(0,0,0,0.15)
   .board
     .rich-text
       font-size: px-to-rem(18px);

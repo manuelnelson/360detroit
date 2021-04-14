@@ -157,7 +157,6 @@ export default defineComponent({
  }
 </style>
 <style lang="stylus">
-
   .blue
     background-color var(--primary)
     color white

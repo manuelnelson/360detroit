@@ -1,51 +1,72 @@
 <template>
   <article class="project">
-    <div class="hero about flex items-center">
-      <div>
-        <h1 class="md:ml-10 text-6xl text-white relative flex items-center">
-          Our Story
-        </h1>
-      </div>
+    <div class="hero about">
+      <vueper-slides fade :touchable="false">
+        <vueper-slide
+          v-for="(slide, i) in slides"
+          :key="i"
+          :image="slide.image"
+          :content="slide.content"          
+          > 
+            <!-- <template v-slot:content>
+                 <img src="~/assets/images/logo.png" class="hero__logo mb-4 pl-8" alt="360 logo" />             
+            </template> -->
+          </vueper-slide>
+      </vueper-slides>
     </div>
-    <section class="about flex flex-wrap   md:flex-no-wrap">
-      <div class="about__image mx-auto w-full md:w-2/5 mt-8 pr-6">
-        <img class="rounded-lg" src="~/assets/images/About.jpg" alt="360 Detroit"/>
-      </div> 
-      <div class="rich-text about__text w-full md:w-3/5">
-        <accordion :startOpen="true">
-          <template v-slot:header>Our Mission</template>
-          <template v-slot:body>
-            <p>
-              <b>360 Detroit, Inc.</b> strives to revitalize Detroit by catalyzing change, empowering people and improving life’s quality.  
-            </p>
-          </template>
-        </accordion>
+    <section class="white relative z-depth-2 z-40 pt-12 mt-8 pb-12 center">
+      <h3 v-scrollinto="" class="text-5xl mb-4 align-center text--secondary">WE ARE STRONGER TOGETHER!</h3>
+      <div v-scrollinto="" class="flex flex-wrap w-full md:w-2/3 rich-text m-auto justify-center">
+        <p>360 Detroit, Inc. began with an image of a connected community with neighborhoods that reflected the vitality of the past Virginia Park neighborhood.  Although the work began with a single man’s image and the support of a few, it has grown into a community effort with benefits realized for all that are involved.  From projects infused with volunteer-fueled solutions to community engagement events, 360 Detroit, Inc. has worked with the community residents to revitalize our neighborhoods to one project at a time.  We remain committed to connecting community members, building trust and sustaining engagement for the benefit of the community.</p>
+      </div>
+    </section>
+    <section class="blue relative z-depth-2 z-40 pt-12 pb-12 center">
+      <!-- <h3 v-scrollinto="" class="text-5xl mb-4 align-center text--secondary">360 Detroit, Inc. strives to…</h3> -->
+      <div v-scrollinto="" class="flex flex-wrap w-full md:w-full m-auto justify-center">
+        <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 white">
+          <h4 class="text-3xl mb-3">Our Challenge</h4>
+          <p>The challenge was to find within our own neighborhood the solution to create safe, vibrant neighborhoods driven by a strong sense of community inclusion, connectedness and hope.</p>
+        </div>
+        <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 white">
+          <h4 class="text-3xl mb-3">Our Foundation</h4>
+          <p>360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. The organization is dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded members of society.</p>
+        </div>
+        <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 white">
+          <h4 class="text-3xl mb-3">Our Growth</h4>
+          <p>From the simplistic start of engaging and organizing residents for clean-ups and social gatherings, 360 Detroit, Inc. has worked diligently to be a “Conduit for Change”. While creating an environment for revitalization and hope, we continue to grow at an accelerated pace.</p>
+        </div>
+      </div>
+  </section>
+  <section class="relative z-depth-2 z-40 center ">
+      <!-- <h3 v-scrollinto="" class="text-5xl mb-4 align-center text--secondary">360 Detroit, Inc. strives to…</h3> -->
+      <div v-scrollinto="" class="flex flex-wrap justify-center items-center w-full quote">
+        <!-- <img src="" class="background-image" alt="Fence Mural" /> -->
+        <blockquote class="text-white w-full">“Alone we can do so little; together we can do so much.”</blockquote>
+        <div class="w-3/5">
+          <figcaption class="w-full text-white text-4xl text-right">~ Helen Keller</figcaption>
+        </div>
+      </div>
+    </section>
+    <section class="about flex flex-wrap md:flex-no-wrap">
+      <div class="rich-text about__text w-full">
         <accordion>
-          <template v-slot:header>Our Vision</template>
+          <template v-slot:header>Our History</template>
           <template v-slot:body>
             <p>
-              <b>360 Detroit, Inc.</b> will be a catalyst for safe, vibrant neighborhoods driven by a strong sense of community inclusion, connectedness and hope.
+              In the Spring of 2014, 360 Detroit, Inc. began with an idea that the community needs to look and be better. We began by boarding up vacant properties and cutting grass in the Virginia Park Community. This community, which is located in District 5 in the city of Detroit, was established over 120 years ago and was once an upper middle-class enclave. After years of economic distress of the community, the resulting decline and disrepair became evident through long-abandoned homes which strained the hope of long-time residents and those who love the Virginia Park Community.  It was this realization that catalyzed the birth of 360 Detroit, Inc.
             </p>
+            <p>Committed to revitalizing, 360 Detroit, Inc. began by engaging the residents and organizing hope infused neighborhood clean-ups and social gatherings.  The now annual community block party was one of the first community engagement gatherings that introduced the residents to enjoyment and new life within their seemingly dying community.  With all things free and available to all participants, it breathed life into a depressed community.  With the help of a host of volunteers and donors, we expanded to tree plantings, vacant lot development/repurposing into useful green gathering spaces and a diverse response to the community’s needs and desires.  We’ve made a tremendous amount of progress and are continuing to work to make our enclave a “little slice of heaven” while enhancing the natural beauty and increasing market values.</p>
           </template>
         </accordion>
         <accordion>
           <template v-slot:header>Our Purpose</template>
           <template v-slot:body>
             <p>
-              The purpose of <b>360 Detroit, Inc.</b> is to provide services that empower and improve the quality of life for individuals and families. The organization is dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded members of society.
+              The purpose of 360 Detroit, Inc. is to provide services that empower and improve the quality of life for individuals and families.  The organization is dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded members of society.  Services include but are not limited to life skills development, career planning, job development, positive leisure time activities and community development activities.  360 Detroit, Inc. also creates a conduit for revitalization of targeted Detroit neighborhoods through the creation and maintenance of viable communities.
             </p>
           </template>
         </accordion>
-        <accordion>
-          <template v-slot:header>Our History</template>
-          <template v-slot:body>
-            <p>
-              360 Detroit, Inc. was founded in 2014 when Founder/President George Adams, Jr. looked around his blighted Virginia Park neighborhood and remembered how pristinely the stately homes were maintained with meticulously, manicured lawns only a generation ago.  Witnessing the toll that the foreclosure crisis had taken on the neighborhood as well as its inhabitants, George vowed to work to make the neighborhood beautiful again while providing assistance and restoring hope to its residents.  His vision simply explained, “I envision at some point, standing in the middle of the street and seeing beauty in all directions when turning 360 degrees.”, is the fuel for filling the Virginia Park Neighborhood that was perceived as half empty.  At that time, residents were not engaged, grass was overgrown and vacant houses were open and dangerous.  
-            </p>
-            <p>360 Detroit Inc. is an award-winning , community-based 501(c)3 nonprofit committed to working with residents in the Virginia Park community to help build a sense of safety, community and quality of life.  While the organization provides resources without exclusion, its focus area is bordered by the Lodge Freeway, West Grand Boulevard, Rosa Parks Boulevard and Clairmount.  Since its inception, 360 Detroit, Inc. has worked diligently with area business leaders, faith-based organizations and community members to spark both a revitalization and renewed interest in this neighborhood.</p>
-            <p>In its six years of service, 360 Detroit, Inc. has been able to transform the community’s appearance with the partnering work of over one thousand volunteers, both residents and non-residents.  The organization has catalyzed change through community & alley cleanups, the boarding up of vacant homes, grass cutting and tree planting to transform the community’s appearance. While physically working in the community, 360 Detroit, Inc. has cultivated residential and business relationships to promote and sustain lasting change.  The recipient of more than 5 grants and 2 community choice awards and numerous recognitions, 360 Detroit, Inc. has proven that the work of a few can make a big impact.   In line with its mission to “revitalize Detroit by catalyzing change, empowering people and improving life’s quality”, 360 Detroit, Inc. continues to restore hope while encouraging and motivating community members.  As a result, hope is being infused in the community as its perception has improved from half empty to half full and continues to progress while neighborhood revitalization is evident through its positive changes.</p>
-          </template>
-        </accordion>
+
       </div>
     </section>
     <section class="board mb-10">
@@ -107,15 +128,44 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, useMeta } from '@nuxtjs/composition-api'
+import { defineComponent, reactive, toRefs, useMeta } from '@nuxtjs/composition-api'
 import Accordion from '@/components/Accordion.vue'
 import { routes } from '~/router'
+import { VueperSlides, VueperSlide } from 'vueperslides'
+import 'vueperslides/dist/vueperslides.css';
+
 export default defineComponent({
-  components: {Accordion},
+  components: {Accordion, VueperSlides, VueperSlide},
   head: {},  
   setup () {
     const { title } = useMeta({ title: `${routes.about.meta.title}` })
-    return {}
+        const data = reactive({
+      slides: [
+        {
+          image: require('~/assets/images/Vision 1.jpg'),
+          content: `<h3 class="text-white relative text-5xl">Vision</h3><p class="text-white rich-text relative font-bold">360 Detroit, Inc. will be a catalyst for safe, vibrant neighborhoods driven by a strong sense of community inclusion, connectedness and hope.</p>`
+        },
+        {
+          image: require('~/assets/images/DSC_1047.jpg'),
+          content: `<h3 class="text-white relative text-5xl">Mission</h3><p class="text-white rich-text relative font-bold">360 Detroit, Inc. strives to revitalize Detroit by catalyzing change, empowering people and improving life’s quality.</p>`
+        },
+        {
+          image: require('~/assets/images/Core Values.jpg'),
+          content: `<h3 class="text-white relative text-5xl">Core Values</h3>
+          <div class="text-white rich-text wide relative font-bold">
+            <ul class="text-white relative font-bold">
+            <li>Fights for & maintains the dignity of the community we serve </li>
+            <li>Celebrates diversity by supporting a culture of inclusion</li>
+            <li>Creates positive impacts in the neighborhood</li>
+            <li>Works with integrity</li>
+            <li>Is forever optimistic about the future of our community</li>
+            <li>Is resourceful and works to teach resourcefulness</li>
+            <li>Is a stable support in the community</li></ul></div>`
+        }
+      ]
+    });
+
+    return {...toRefs(data)}
   }
 })
 </script>
@@ -125,21 +175,52 @@ export default defineComponent({
     .hero.about
       height 600px 
       width 100%
-      position relative 
-      padding-left 40px
-      background-image: url('~assets/images/About.jpg');
-      background-size: cover;
-      background-position center;
-      background-color var(--primary)
-      &:before
-        content: ''
-        display block
-        height 100%
-        width 100%
-        left 0
-        top 0
-        position absolute
-        background-color rgba(0,0,0,0.15)
+      // position relative 
+      // padding-left 40px
+      .vueperslide
+        background-position center center;
+        background-size cover;
+        background-repeat no-repeat;
+        .rich-text
+          font-weight bold
+          max-width 40ch
+          font-size 28px
+          &.wide
+            max-width 100ch
+            width 100%;
+            text-align left;
+        &:before
+          content: ''
+          display block
+          height 100%
+          width 100%
+          left 0
+          top 0
+          position absolute
+          background-color rgba(0,0,0,0.3)
+      // &:before
+      //   content: ''
+      //   display block
+      //   height 100%
+      //   width 100%
+      //   left 0
+      //   top 0
+      //   position absolute
+      //   background-color rgba(0,0,0,0.15)
+  .quote
+    max-height 500px;
+    background-image: url('~/assets/images/Bb.jpg')
+    background-size: cover;
+    background-position center;
+    padding:50px 0;
+    blockquote
+      border-left: none;
+      max-width: 30ch;
+      font-size: 5rem;
+      line-height: 1.1;
+      padding: .7rem;
+    // figcaption
+
   .board
     .rich-text
       font-size: px-to-rem(18px);

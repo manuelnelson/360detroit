@@ -74,7 +74,7 @@ export const routes : IRoute =
       }
     },
     hollandMaze: {
-      path: '/impact/holland',
+      path: '/impact/holland-maze',
       name: 'holland',
       meta: {
         title: `Holland Maze - ${mainTitle}`

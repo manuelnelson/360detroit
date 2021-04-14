@@ -36,8 +36,8 @@
           <p>From the simplistic start of engaging and organizing residents for clean-ups and social gatherings, 360 Detroit, Inc. has worked diligently to be a “Conduit for Change”. While creating an environment for revitalization and hope, we continue to grow at an accelerated pace.</p>
         </div>
       </div>
-  </section>
-  <section class="relative z-depth-2 z-40 center ">
+    </section>
+    <section class="relative z-depth-2 z-40 center ">
       <!-- <h3 v-scrollinto="" class="text-5xl mb-4 align-center text--secondary">360 Detroit, Inc. strives to…</h3> -->
       <div v-scrollinto="" class="flex flex-wrap justify-center items-center w-full quote">
         <!-- <img src="" class="background-image" alt="Fence Mural" /> -->
@@ -66,40 +66,45 @@
             </p>
           </template>
         </accordion>
-
       </div>
     </section>
-    <section class="board mb-10">
+    <section class="board mb-10 w-4/5 mx-auto">
       <h2 class="mb-6 text-3xl font-bold">President and Founder</h2>
       <div class="flex flex-wrap">
         <div class="person-item z-depth-2 p-8 w-full sm:w-1/3">
           <h3>George Adams, Jr.</h3>
           <span class="block font-bold">President and Founder</span>
-          <div class="mt-4 rich-text">
+          <div class="mt-4 rich-text collapsible" :class="{'open':readMoreGeorge}">
             <p>George is a man of vision and spirituality. His deep sense of compassion and love for God motivates his love for people. He is an entrepreneur, realtor and real estate investor. George believes there is no greater sense of fulfillment than to be clear about your purpose in life. Then to master those gifts and abilities so that you not only live on purpose with fulfillment; but you also make an impact on the lives of others.</p>
             <p>George is a native Detroiter who believes in and loves the city. Growing up in a city that has seen better times, he always asked himself "What can I do to make things better?" Which is why he believes that 360 Detroit Inc. Is his purpose. George currently serves as President of the W Euclid/W Philadelphia Neighborhood Association and Chaplain for the Wayne County Sheriff Department.</p>
             <p>George enjoys spending time with his family and friends, sightseeing, listening to music and playing the piano.</p>
           </div>
-        </div>
+          <button class="btn btn-default" v-if="readMoreGeorge == false" @click="readMoreGeorge = true">Read More <i class="ml-3 material-icons">expand_more</i></button>
+          <button class="btn btn-default" v-if="readMoreGeorge == true" @click="readMoreGeorge = false">Collapse <i class="ml-3 material-icons">expand_less</i></button>
+        </div> 
       </div>
       <h2 class="mb-6 mt-10 text-3xl font-bold">Board of Directors</h2>
       <div class="grid sm:grid-cols-2 md:grid-cols-3">
         <div class="person-item z-depth-2 p-8 m-3">
           <h3>Michael Haggerty</h3>
           <span class="block font-bold">Chair</span>
-          <div class="mt-4 rich-text">
+          <div class="mt-4 rich-text collapsible" :class="{'open':readMoreHaggerty}">
             <p>Michael Haggerty is Vice President – Branch Manager (Detroit) DFCU Financial. Michael joined DFCU Financial in 2004, working primarily in the Midtown Detroit Branch, where he evaluates members personal and business financial position with the objective to help build a plan to achieve their goals. Michael has said “many people know they need to plan, few make the time to develop a plan to meet their goals.” That is one of the main reasons he is so enthusiastic about presenting financial literacy programs to young people; believing in the importance of sharing this life skill at an early age.</p>
             <p>Michael holds a Bachelor of Science degree in Business Administration from Lawrence Technological University with concentrations in Finance and Marketing Management. He also holds an Associates degree in Liberal Arts from Schoolcraft College. He currently serves as a parish council member at his church, St Vincent Pallotti in Wyandotte and parish council at All Saints Church, Detroit. He was a Pack Leader for Cub Scouts in Wyandotte and was the Treasurer of Northville’s Playscape Committee. Michael has also served as a Board member for Northville Chamber of Commerce, Rotary Club of Northville and Hemophilia Foundation of Michigan.</p>
             <p>In his free time Michael enjoys spending time with his wife, daughter and two sons as well as cycling, CrossFit, kayaking, and playing golf.</p>
           </div>
+          <button class="btn btn-default" v-if="readMoreHaggerty == false" @click="readMoreHaggerty = true">Read More <i class="ml-3 material-icons">expand_more</i></button>
+          <button class="btn btn-default" v-if="readMoreHaggerty == true" @click="readMoreHaggerty = false">Collapse <i class="ml-3 material-icons">expand_less</i></button>
         </div>
         <div class="person-item z-depth-2 p-8 m-3">
           <h3>N’Jeri Laird</h3>
           <span class="block font-bold">Vice Chair & Treasurer</span>
-          <div class="mt-4 rich-text">
+          <div class="mt-4 rich-text collapsible" :class="{'open':readMoreNjeri}">
             <p>N’Jeri Laird is a graduate of the University of Michigan with a Bachelor’s of Science in Chemical Engineering. She currently serves as the Quality Manager for an international testing company’s Troy, Warren and Westland locations. N’Jeri has been an active member in the educational community holding several positions on Charter School Boards and parent associations in the Metropolitan Detroit Area for the last twenty years. She has also continuously served in various capacities to provide strategic planning, organization and support services to non-profit and evangelical organizations.</p>
             <p>N’Jeri enjoys helping others’ dreams become a reality. She enjoys spending time with loved ones, dancing, traveling, reading, exercising and exploring new exciting experiences.</p>
           </div>
+          <button class="btn btn-default" v-if="readMoreNjeri == false" @click="readMoreNjeri = true">Read More <i class="ml-3 material-icons">expand_more</i></button>
+          <button class="btn btn-default" v-if="readMoreNjeri == true" @click="readMoreNjeri = false">Collapse <i class="ml-3 material-icons">expand_less</i></button>
         </div>
         <div class="person-item z-depth-2 p-8 m-3">
           <h3>Elyse Wolf</h3>
@@ -140,29 +145,32 @@ export default defineComponent({
   setup () {
     const { title } = useMeta({ title: `${routes.about.meta.title}` })
         const data = reactive({
-      slides: [
-        {
-          image: require('~/assets/images/Vision 1.jpg'),
-          content: `<h3 class="text-white relative text-5xl">Vision</h3><p class="text-white rich-text relative font-bold">360 Detroit, Inc. will be a catalyst for safe, vibrant neighborhoods driven by a strong sense of community inclusion, connectedness and hope.</p>`
-        },
-        {
-          image: require('~/assets/images/DSC_1047.jpg'),
-          content: `<h3 class="text-white relative text-5xl">Mission</h3><p class="text-white rich-text relative font-bold">360 Detroit, Inc. strives to revitalize Detroit by catalyzing change, empowering people and improving life’s quality.</p>`
-        },
-        {
-          image: require('~/assets/images/Core Values.jpg'),
-          content: `<h3 class="text-white relative text-5xl">Core Values</h3>
-          <div class="text-white rich-text wide relative font-bold">
-            <ul class="text-white relative font-bold">
-            <li>Fights for & maintains the dignity of the community we serve </li>
-            <li>Celebrates diversity by supporting a culture of inclusion</li>
-            <li>Creates positive impacts in the neighborhood</li>
-            <li>Works with integrity</li>
-            <li>Is forever optimistic about the future of our community</li>
-            <li>Is resourceful and works to teach resourcefulness</li>
-            <li>Is a stable support in the community</li></ul></div>`
-        }
-      ]
+        slides: [
+          {
+            image: require('~/assets/images/Vision 1.jpg'),
+            content: `<h3 class="text-white relative text-5xl">Vision</h3><p class="text-white rich-text relative font-bold">360 Detroit, Inc. will be a catalyst for safe, vibrant neighborhoods driven by a strong sense of community inclusion, connectedness and hope.</p>`
+          },
+          {
+            image: require('~/assets/images/DSC_1047.jpg'),
+            content: `<h3 class="text-white relative text-5xl">Mission</h3><p class="text-white rich-text relative font-bold">360 Detroit, Inc. strives to revitalize Detroit by catalyzing change, empowering people and improving life’s quality.</p>`
+          },
+          {
+            image: require('~/assets/images/Core Values.jpg'),
+            content: `<h3 class="text-white relative text-5xl">Core Values</h3>
+            <div class="text-white rich-text wide relative font-bold">
+              <ul class="text-white relative font-bold">
+              <li>Fights for & maintains the dignity of the community we serve </li>
+              <li>Celebrates diversity by supporting a culture of inclusion</li>
+              <li>Creates positive impacts in the neighborhood</li>
+              <li>Works with integrity</li>
+              <li>Is forever optimistic about the future of our community</li>
+              <li>Is resourceful and works to teach resourcefulness</li>
+              <li>Is a stable support in the community</li></ul></div>`
+          }
+        ],
+        readMoreGeorge:false,
+        readMoreHaggerty: false,
+        readMoreNjeri:false        
     });
 
     return {...toRefs(data)}
@@ -220,10 +228,30 @@ export default defineComponent({
       line-height: 1.1;
       padding: .7rem;
     // figcaption
-
   .board
+    .person-item
+      background-color white;      
     .rich-text
       font-size: px-to-rem(18px);
+      width:100%;
+      max-height: 300px;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+      position relative;
+      &.collapsible
+        &:after
+          display: block;
+          content: '';
+          width 100%;
+          height: 40px;
+          background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%); 
+          bottom: 0px;
+          left: 0;
+          position: absolute;
+      &.open
+        max-height: 100%;
+        &:after
+          background: transparent !important;
   .about
     &__image
       max-width 600px;

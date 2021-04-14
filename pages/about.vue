@@ -110,21 +110,21 @@
           <h3>Elyse Wolf</h3>
           <span class="block font-bold">Secretary</span>
           <div class="mt-4 rich-text">
-            <p>Stay Tuned</p>
+            <p>Member at large</p>
           </div>
         </div>
         <div class="person-item z-depth-2 p-8 m-3">
           <h3>Anjelica King</h3>
           <span class="block font-bold">Member at Large</span>
           <div class="mt-4 rich-text">
-            <p>Stay Tuned</p>
+            <p>Member at large</p>
           </div>
         </div>
         <div class="person-item z-depth-2 p-8 m-3">
           <h3>Ingrid Macon</h3>
           <span class="block font-bold">Member at Large</span>
           <div class="mt-4 rich-text">
-            <p>Stay Tuned</p>
+            <p>Member at large</p>
           </div>
         </div>
       </div>

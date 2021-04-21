@@ -8,7 +8,7 @@
       </div>
     </div> -->
     <div class="rich-text project-text m-auto mt-10">
-      <form class="form-wrapper mt-8 mb-8" @submit.prevent="saveContact" lazy-validation>
+      <form id="contactForm" class="form-wrapper mt-8 mb-8" method="POST" data-netlify="true" action="/success/" name="contactForm" lazy-validation>
           <h3 class="text-4xl">Questions?</h3>
           <p class="mt-4">If you have questions about 360 Detroit, Inc. or any of our programs and events, please do not hesitate to contact us. </p>
           <div class="flex flex-wrap">
@@ -38,14 +38,14 @@
               <label :class="{'active': isActive(contact.message)}" :for="contact.message">Message</label>
             </div>
           </div>
-          <button class="btn btn-default w-full justify-center items-center" type="submit"><span class="inline-block">Send</span> <i class="ml-3 material-icons">send</i></button>
+          <button class="btn btn-default w-full justify-center items-center" @click.prevent="submitContact" type="submit"><span class="inline-block">Send</span> <i class="ml-3 material-icons">send</i></button>
       </form>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import {defineComponent, computed, reactive, toRefs, useMeta} from "@nuxtjs/composition-api";
+import {defineComponent, computed, reactive, toRefs, useMeta, useRouter} from "@nuxtjs/composition-api";
 import { routes } from "~/router";
 
 // import { globalStore } from "../../store/modules/global-store";
@@ -54,6 +54,8 @@ export default defineComponent({
   head: {},
   setup(props, context) {
     //life-cycle hooks
+    const router = useRouter();
+
     //configure data
     const data = reactive({
       defaultVals: {},
@@ -65,8 +67,16 @@ export default defineComponent({
         message: ''
       }
     })
-    const saveContact = () => {
-      console.log('save');
+    const submitContact = async () => {
+      let myForm = document.getElementById('contactForm') as HTMLFormElement;
+      let formData = new FormData(myForm);
+      
+      await fetch('/', {
+          method: 'POST',
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(formData as any).toString()
+      })
+      router.push(routes.success.path);
     }
     const isActive = (field: string) => {
       return field && field.length > 0;
@@ -77,7 +87,7 @@ export default defineComponent({
     })
     //methods
     return {
-      ...toRefs(data), saveContact, isActive
+      ...toRefs(data), submitContact, isActive
     }
   },
 }) 

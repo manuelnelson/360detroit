@@ -58,14 +58,9 @@ export default defineComponent({
       slides: [
         {
           image: require('~/assets/images/Aa.jpg'),
-          // title:'1',
-          // content: '1'
         },
         {
           image: require('~/assets/images/F.jpg'),
-        },
-        {
-          image: require('~/assets/images/Ac.JPG'),
         },
         {
           image: require('~/assets/images/H.jpg'),

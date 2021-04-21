@@ -15,7 +15,7 @@
   </section>
   <section class="blue relative z-depth-2 z-40 center">
       <h3 v-scrollinto="" class="text-5xl mb-4 align-center text--secondary">360 Detroit, Inc. strives to…</h3>
-      <div v-scrollinto="" class="flex flex-wrap w-full md:w-2/3 m-auto justify-center">
+      <div v-scrollinto="" class="flex flex-wrap w-full m-auto justify-center">
         <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 white">
           <h4 class="text-3xl mb-3">REVITALIZE <span class="block italic">Neighborhoods</span></h4>
           <p>Introducing new life and vitality, including green space development, that improve the landscape of the neighborhood while making additions and improvements that increase property values.</p>

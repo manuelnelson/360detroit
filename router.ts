@@ -45,6 +45,13 @@ export const routes : IRoute =
         title: `Contact - ${mainTitle}`
       }
     },
+    success: {
+      path: '/success',
+      name: 'success',
+      meta: {
+        title: `Success - ${mainTitle}`
+      }
+    },
     arthouse: {
       path: '/impact/art-house',
       name: 'arthouse',
@@ -137,6 +144,7 @@ export interface IRoute {
   getInvolved: RouteRecordRaw,
   whatshappening: RouteRecordRaw,
   virginiaPark: RouteRecordRaw,
+  success: RouteRecordRaw,
   park360: RouteRecordRaw,
   hollandMaze: RouteRecordRaw,
   engagementMeetings: RouteRecordRaw,

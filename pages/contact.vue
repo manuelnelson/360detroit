@@ -64,7 +64,7 @@ export default defineComponent({
       let myForm = document.getElementById('contactForm') as HTMLFormElement;
       let formData = new FormData(myForm);
       
-      await fetch('/', {
+      await fetch('/contact', {
           method: 'POST',
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData as any).toString()

@@ -5,6 +5,7 @@
       <p class="mt-4">If you have questions about 360 Detroit, Inc. or any of our programs and events, please do not hesitate to contact us. </p>
       <form class="form-wrapper mt-8 mb-8" id="contactForm" method="POST" data-netlify="true" action="/success/" name="contact" lazy-validation>
           <div class="flex flex-wrap">
+            <input type="hidden" name="form-name" value="contact"/>
             <div class="input-field w-full md:w-1/2" >
               <i class="material-icons prefix">account_circle</i>
               <input type="text" ref="focusElementRef" v-model="contact.name" name="name" required />

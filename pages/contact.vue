@@ -7,28 +7,28 @@
           <div class="flex flex-wrap">
             <div class="input-field w-full md:w-1/2" >
               <i class="material-icons prefix">account_circle</i>
-              <input type="text" ref="focusElementRef" v-model="contact.name" :name="contact.name" required />
-              <label :class="{'active': isActive(contact.name)}" :for="contact.name">Name</label>
+              <input type="text" ref="focusElementRef" v-model="contact.name" name="name" required />
+              <label :class="{'active': isActive(contact.name)}" for="name">Name</label>
             </div>
             <div class="input-field w-full md:w-1/2" >
               <i class="material-icons prefix">email</i>
-              <input type="email"  v-model="contact.email" :name="contact.email" required />
-              <label :class="{'active': isActive(contact.email)}" :for="contact.email">E-mail</label>
+              <input type="email"  v-model="contact.email" name="email" required />
+              <label :class="{'active': isActive(contact.email)}" for="email">E-mail</label>
             </div>
             <div class="input-field w-full md:w-1/2" >
               <i class="material-icons prefix">phone</i>
-              <input type="text" v-model="contact.phone" :name="contact.phone" required />
-              <label :class="{'active': isActive(contact.phone)}" :for="contact.phone">Phone</label>
+              <input type="text" v-model="contact.phone" name="phone" required />
+              <label :class="{'active': isActive(contact.phone)}" for="phone">Phone</label>
             </div>
             <div class="input-field w-full md:w-1/2" >
               <i class="material-icons prefix">business</i>
-              <input type="text" v-model="contact.company" :name="contact.company" required />
-              <label :class="{'active': isActive(contact.company)}" :for="contact.company">Company</label>
+              <input type="text" v-model="contact.company" name="company" required />
+              <label :class="{'active': isActive(contact.company)}" for="company">Company</label>
             </div>
             <div class="input-field textarea" >
               <i class="material-icons prefix">chat</i>
-              <textarea type="text" class="materialize-textarea" v-model="contact.message" :name="contact.message" required />
-              <label :class="{'active': isActive(contact.message)}" :for="contact.message">Message</label>
+              <textarea type="text" class="materialize-textarea" v-model="contact.message" name="message" required />
+              <label :class="{'active': isActive(contact.message)}" for="message">Message</label>
             </div>
           </div>
           <input class="btn btn-default w-full justify-center items-center" @click.prevent="submitContact" type="submit" value="Send">

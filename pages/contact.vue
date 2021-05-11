@@ -70,7 +70,7 @@ export default defineComponent({
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: new URLSearchParams(formData as any).toString()
       })
-      //router.push(routes.success.path);
+      router.push(routes.success.path);
     }
     const isActive = (field: string) => {
       return field && field.length > 0;

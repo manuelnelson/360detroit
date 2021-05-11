@@ -38,7 +38,7 @@
               <label :class="{'active': isActive(contact.message)}" :for="contact.message">Message</label>
             </div>
           </div>
-          <button class="btn btn-default w-full justify-center items-center" @click.prevent="submitContact" type="submit"><span class="inline-block">Send</span> <i class="ml-3 material-icons">send</i></button>
+          <input class="btn btn-default w-full justify-center items-center" @click.prevent="submitContact" type="submit" value="Send">
       </form>
     </div>
   </div>

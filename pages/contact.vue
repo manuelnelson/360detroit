@@ -1,14 +1,7 @@
 <template>
   <div class="project">    
-    <!-- <div class="hero hero-contact flex items-center">
-      <div>
-        <h1 class="md:ml-10 text-6xl text-white relative flex items-center">
-          Contact Us
-        </h1>
-      </div>
-    </div> -->
     <div class="rich-text project-text m-auto mt-10">
-      <form id="contactForm" class="form-wrapper mt-8 mb-8" method="POST" data-netlify="true" action="/success/" name="contactForm" lazy-validation>
+      <form class="form-wrapper mt-8 mb-8" id="contactForm" method="POST" data-netlify="true" action="/success/" name="contact" lazy-validation>
           <h3 class="text-4xl">Questions?</h3>
           <p class="mt-4">If you have questions about 360 Detroit, Inc. or any of our programs and events, please do not hesitate to contact us. </p>
           <div class="flex flex-wrap">

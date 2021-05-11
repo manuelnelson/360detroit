@@ -1,9 +1,9 @@
 <template>
   <div class="project">    
     <div class="rich-text project-text m-auto mt-10">
+      <h3 class="text-4xl">Questions?</h3>
+      <p class="mt-4">If you have questions about 360 Detroit, Inc. or any of our programs and events, please do not hesitate to contact us. </p>
       <form class="form-wrapper mt-8 mb-8" id="contactForm" method="POST" data-netlify="true" action="/success/" name="contact" lazy-validation>
-          <h3 class="text-4xl">Questions?</h3>
-          <p class="mt-4">If you have questions about 360 Detroit, Inc. or any of our programs and events, please do not hesitate to contact us. </p>
           <div class="flex flex-wrap">
             <div class="input-field w-full md:w-1/2" >
               <i class="material-icons prefix">account_circle</i>
@@ -17,12 +17,12 @@
             </div>
             <div class="input-field w-full md:w-1/2" >
               <i class="material-icons prefix">phone</i>
-              <input type="text" v-model="contact.phone" name="phone" required />
+              <input type="text" v-model="contact.phone" name="phone" />
               <label :class="{'active': isActive(contact.phone)}" for="phone">Phone</label>
             </div>
             <div class="input-field w-full md:w-1/2" >
               <i class="material-icons prefix">business</i>
-              <input type="text" v-model="contact.company" name="company" required />
+              <input type="text" v-model="contact.company" name="company" />
               <label :class="{'active': isActive(contact.company)}" for="company">Company</label>
             </div>
             <div class="input-field textarea" >

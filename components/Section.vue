@@ -11,6 +11,9 @@
       <p>
         As a conduit for change and revitalization, we strive to create and maintain viable, safe communities within Detroit. 
       </p>
+      <p>&nbsp;</p>
+      <p>Please check out our <a href="/2021Programming.pdf" target="_blank">events for the Summer of 2021!</a></p>
+      <p>View <a href="/360 Detroit Brochure.pdf" target="_blank">Our Brochure here!</a></p>
     </div>
   </section>
   <section class="blue relative z-depth-2 z-40 center">

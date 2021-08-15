@@ -40,7 +40,11 @@ import { routes } from '~/router';
 // import alertStore from "@/store/modules/alert-store";
 export default defineComponent({
   components: {SectionComponent, SectionServices,VueperSlides, VueperSlide },
-  head: {},
+  head() {
+    return {
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+    };
+  },
   setup() {
     //life-cycle hooks
     onBeforeMount(() => {

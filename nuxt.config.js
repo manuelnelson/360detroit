@@ -53,8 +53,13 @@ export default {
   },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/markdownit'
   ],
+  markdownit: {
+    breaks: true,
+    // runtime: true,
+  },
   content: [],
   ssr: true,
   // Build Configuration: https://go.nuxtjs.dev/config-build

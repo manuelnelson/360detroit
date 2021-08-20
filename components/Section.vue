@@ -2,18 +2,11 @@
 <div class="main-section-component">
 <section class="white p-8 flex relative z-depth-2 z-40 flex-wrap md:flex-no-wrap">
     <div class="w-full md:w-2/5 p-6">
-      <img class="mt-6 z-depth-3" src="~/assets/images/whoweare.jpg" alt="Jump">
+      <img class="mt-6 z-depth-3" :src="spotlight.image" alt="Jump">
     </div>
     <div class="w-full md:w-3/5 p-6 rich-text">
-      <h3 class="text-5xl mb-4">360 Spotlight</h3>
-      <p>360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members. 
-      </p>
-      <p>
-        As a conduit for change and revitalization, we strive to create and maintain viable, safe communities within Detroit. 
-      </p>
-      <p>&nbsp;</p>
-      <p>Please check out our <a href="/2021Programming.pdf" target="_blank">events for the Summer of 2021!</a></p>
-      <p>View <a href="/360 Detroit Brochure.pdf" target="_blank">Our Brochure here!</a></p>
+      <h3 class="text-5xl mb-4">{{spotlight.title}}</h3>
+      <div v-html="$md.render(spotlight.content)"></div>
     </div>
   </section>
   <section class="blue relative z-depth-2 z-40 center">
@@ -92,9 +85,11 @@
 import { defineComponent, reactive, toRefs } from '@nuxtjs/composition-api'
 import { VueperSlides, VueperSlide } from 'vueperslides'
 import 'vueperslides/dist/vueperslides.css';
-
 export default defineComponent({
   components: {VueperSlides, VueperSlide},
+  props: {
+    spotlight: Object   
+  },
   setup () {
     const data = reactive({
       slides: [
@@ -140,7 +135,7 @@ export default defineComponent({
         },
       ]
     });
-
+    // const spotlight = prop
     return {
       ...toRefs(data)
     }

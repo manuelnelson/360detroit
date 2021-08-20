@@ -14,7 +14,7 @@
       </vueper-slides>
 
     </div>
-    <section-component></section-component>
+    <section-component :spotlight="spotlight"></section-component>
     <!-- <section-services></section-services> -->
     <!-- <section class="blue p-8">
       <h3 class="text-5xl font- mt-10 mb-6">Latest</h3>
@@ -43,13 +43,14 @@ export default defineComponent({
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     };
   },
-  // async asyncData(context) {
-  //   const posts = await context.$content("blog").fetch();
-
-  //   return {
-  //     posts,
-  //   };
-  // },
+  async asyncData(context) {
+    const spotlights = await context.$content("spotlight").fetch();
+    const spotlight = spotlights[0];
+    console.log(spotlight);
+    return {
+      spotlight,
+    };
+  },
   setup() {
     //life-cycle hooks
     onBeforeMount(() => {

@@ -7,6 +7,10 @@
         </h1>
       </div>
     </div>
+    <section class="blue relative p-4 md:p-10 z-depth-2 z-40 center" v-if="involved.title.length > 0">
+          <h3  class="text-5xl mb-4 align-center text--secondary">{{involved.title}}</h3>
+          <div class="text-xl" v-html="$md.render(involved.content)"></div>
+    </section>
     <section class="white relative p-4 md:p-10 z-depth-2 z-40 center">
           <h3  class="text-5xl mb-4 align-center text--secondary">3 Ways to Support Our Vision</h3>
           <div  class="flex justify-center m-auto flex-wrap">
@@ -37,7 +41,7 @@
             </div>
 
           </div>
-      </section>
+    </section>
       <section class="blue p-8 flex relative z-depth-2 z-40 flex-wrap md:flex-no-wrap">
         <div class="w-full md:w-3/5 md:p-6 rich-text">
           <h3 class="text-5xl mb-4">Calling All Volunteers – We Need YOU!</h3>
@@ -56,6 +60,14 @@ import { routes } from "~/router";
 export default defineComponent({
   components: {},
   head: {},
+  async asyncData(context) {
+    const involveds = await context.$content("involved").fetch();
+    const involved = involveds[0];
+    console.log(involved);
+    return {
+      involved,
+    };
+  },
   setup(props, context) {
     //life-cycle hooks
     //configure data

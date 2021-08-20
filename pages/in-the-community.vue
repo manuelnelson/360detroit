@@ -36,7 +36,7 @@
         <li>Leslie Hartig</li>
         <li>Knello Printing</li>
         <li>Motor City Grounds Crew</li>
-        <li>Emmanuel Nelson</li>
+        <li>Emmanuel Nelson, LLC</li>
         <li>Organized Excellence, LLC</li>
         <li>Melvin Stewart</li>
       </ul>

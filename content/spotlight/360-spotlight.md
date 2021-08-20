@@ -11,6 +11,8 @@ content: >-
   As a conduit for change and revitalization, we strive to create and maintain viable, safe communities within Detroit.
 
 
+
+
   Please check out our [events for the Summer of 2021](https://360detroitinc.org/2021Programming.pdf)!
 
 

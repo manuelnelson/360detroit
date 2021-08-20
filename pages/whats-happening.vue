@@ -8,12 +8,12 @@
         <p class="md:ml-10 relative md:w-2/3 text-white text-2xl">In the spirit of our mission and supporting community, we promote projects and programming that revitalize the neighborhood’s landscape while offering enjoyment and empowerment to residents.  </p>
       </div>
     </div>
-    <section class="blue p-8 flex relative z-depth-2 z-40 flex-wrap md:flex-no-wrap" v-if="happening.title.toLowerCase() != 'draft'">
+    <!-- <section class="blue p-8 flex relative z-depth-2 z-40 flex-wrap md:flex-no-wrap" v-if="happening.title.toLowerCase() != 'draft'">
       <div class="w-full md:w-3/5 md:p-6 rich-text">
         <h3 class="text-5xl mb-4">{{happening.title}}</h3> 
         <div class="text-xl" v-html="$md.render(happening.content)"></div>
       </div>
-    </section>
+    </section> -->
     <section-impact></section-impact>
   </div>
 </template>
@@ -27,14 +27,13 @@ import { routes } from "~/router";
 export default defineComponent({
   components: {SectionImpact},
   head: {},
-  async asyncData(context) {
-    const happenings = await context.$content("happening").fetch();
-    const happening = happenings[0];
-    console.log(happening);
-    return {
-      happening,
-    };
-  },
+  // async asyncData(context) {
+  //   const happenings = await context.$content("happening").fetch();
+  //   const happening = happenings[0];
+  //   return {
+  //     happening,
+  //   };
+  // },
 
   setup(props, context) {
     const data = reactive({

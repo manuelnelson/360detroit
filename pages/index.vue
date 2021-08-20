@@ -34,10 +34,8 @@ import 'vueperslides/dist/vueperslides.css';
 
 import {defineComponent, computed, reactive, onMounted, toRefs, onBeforeMount, useMeta} from "@nuxtjs/composition-api";
 import SectionComponent from '@/components/Section.vue'
-// import { globalStore } from "@/store/modules/global-store";
 import SectionServices from '@/components/SectionServices.vue'
 import { routes } from '~/router';
-// import alertStore from "@/store/modules/alert-store";
 export default defineComponent({
   components: {SectionComponent, SectionServices,VueperSlides, VueperSlide },
   head() {
@@ -45,6 +43,13 @@ export default defineComponent({
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     };
   },
+  // async asyncData(context) {
+  //   const posts = await context.$content("blog").fetch();
+
+  //   return {
+  //     posts,
+  //   };
+  // },
   setup() {
     //life-cycle hooks
     onBeforeMount(() => {

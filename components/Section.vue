@@ -155,11 +155,6 @@ export default defineComponent({
  }
 </style>
 <style lang="stylus">
-  .blue
-    background-color var(--primary)
-    color white
-    p
-      line-height 1.4
   .main-section-component
     .vueperslide
       background-color var(--primary)

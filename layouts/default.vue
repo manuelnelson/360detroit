@@ -45,6 +45,14 @@ export default defineComponent({
   },
 })</script>
 <style lang="stylus">
+
+.blue
+  background-color var(--primary)
+  color white
+  p
+    line-height 1.4
+
+
 .fade-enter-active, .fade-leave-active 
   transition: opacity .5s;
 

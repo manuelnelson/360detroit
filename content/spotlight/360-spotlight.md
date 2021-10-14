@@ -14,6 +14,12 @@ content: >-
   Please check out our [events for the Summer of 2021](https://360detroitinc.org/2021Programming.pdf)!
 
 
+  View our [Park Opening Flyer!](/img/360-park-opening-flyer-final.pdf)
+
+
+  [Purchase A Paver!](/img/purchase-a-paver-flyer.pdf)
+
+
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
 image: /img/whoweare.jpg
 ---

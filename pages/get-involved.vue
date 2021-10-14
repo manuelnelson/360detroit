@@ -8,7 +8,7 @@
       </div>
     </div>
     <section class="blue p-8 flex relative z-depth-2 z-40 flex-wrap md:flex-no-wrap" v-if="involved.title.toLowerCase() != 'draft'">
-        <div class="w-full md:w-3/5 md:p-6 rich-text">
+        <div class="w-full md:w-3/5 md:p-4 rich-text">
           <h3 class="text-5xl mb-4">{{involved.title}}</h3> 
           <div class="text-xl" v-html="$md.render(involved.content)"></div>
         </div>

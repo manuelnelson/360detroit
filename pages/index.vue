@@ -46,7 +46,7 @@ export default defineComponent({
   async asyncData(context) {
     const spotlights = await context.$content("spotlight").fetch();
     const spotlight = spotlights[0];
-    console.log(spotlight);
+    // console.log(spotlight);
     return {
       spotlight,
     };

@@ -12,11 +12,12 @@
           <button title="menu" class="nav__menu text-color inline-block md:hidden" @click.stop="openMenu"><i class="material-icons">menu</i></button>
           <ul class="nav__links hidden md:flex items-center h-full font-bold text-sm">
             <li><router-link class="h-full fancy" :to="routes.home.path"><i class="material-icons">home</i></router-link></li>
+            <li><a href="https://brickmarkersusa.com/donors/360.html" class="h-full fancy yellow">Buy A Brick</a></li> 
             <li><router-link class="h-full fancy" :to="routes.about.path">Our Story</router-link></li> 
             <li><router-link class="h-full fancy" :to="routes.getInvolved.path">Get Involved</router-link></li> 
             <li><router-link class="h-full fancy" :to="routes.whatshappening.path">What's Happening</router-link></li> 
-            <li><router-link class="h-full fancy" :to="routes.contact.path">Contact Us</router-link></li> 
-            <li><router-link class="h-full fancy" :to="routes.community.path">In The Community</router-link></li> 
+            <li><router-link class="h-full fancy" :to="routes.contact.path">Contact</router-link></li> 
+            <li><router-link class="h-full fancy" :to="routes.community.path">Community</router-link></li> 
             <li>
               <form action="https://www.paypal.com/donate" method="post" target="_top">
                 <input type="hidden" name="hosted_button_id" value="U47J4WKC343XL" />
@@ -35,6 +36,7 @@
       <div class="menu__links m-10 p-10">
         <ul class=" text-center font-bold flex flex-col no-style text-4xl">  
           <li><router-link class="mb-3 fancy" :to="routes.home.path"><i class="material-icons">home</i></router-link></li>
+          <li><a href="https://brickmarkersusa.com/donors/360.html" class="h-full fancy yellow">Buy A Brick</a></li> 
           <li><router-link class="mb-3 fancy" :to="routes.about.path">Our Story</router-link></li> 
           <li><router-link class="mb-3 fancy" :to="routes.getInvolved.path">Get Involved</router-link></li> 
           <li><router-link class="mb-3 fancy" :to="routes.whatshappening.path">What's Happening</router-link></li> 
@@ -164,6 +166,8 @@ header
         justify-content flex-end    
     a
       color var(--text-color);  
+      &.yellow
+        color darken(#FFD140,25%) !important;  
       &.nuxt-link-exact-active
         &:after 
           max-width 100%

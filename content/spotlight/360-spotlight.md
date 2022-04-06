@@ -1,5 +1,5 @@
 ---
-title: 360 Spotlight
+title: 360 Spotlight - Buy a Brick
 date: 2022-04-06T00:54:26.598Z
 content: >-
   360 Detroit, Inc. provides services that empower and improve the quality of
@@ -11,7 +11,7 @@ content: >-
   As a conduit for change and revitalization, we strive to create and maintain viable, safe communities within Detroit.
 
 
-  Please donate to our [360 Brick Fundraiser!](https://brickmarkersusa.com/donors/360.html)[](/img/purchase-a-paver-flyer.pdf)
+  Please donate to our [360 Brick Fundraiser](https://brickmarkersusa.com/donors/360.html)![](/img/purchase-a-paver-flyer.pdf)
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!

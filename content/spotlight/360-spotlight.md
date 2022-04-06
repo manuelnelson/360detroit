@@ -11,6 +11,9 @@ content: >-
   As a conduit for change and revitalization, we strive to create and maintain viable, safe communities within Detroit.
 
 
+  Join 360 Detroit's Brick Campaign! Every Brick Has a Story. Write Yours. Place a Brick Order TODAY!
+
+
   Please donate to our [360 Brick Fundraiser](https://brickmarkersusa.com/donors/360.html)![](/img/purchase-a-paver-flyer.pdf)
 
 

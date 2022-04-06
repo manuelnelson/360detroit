@@ -15,5 +15,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/whoweare.jpg
+image: /img/img_0012.jpg
 ---

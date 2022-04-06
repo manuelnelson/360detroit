@@ -43,13 +43,5 @@ content: >-
   https://forms.gle/CoEmfFNiBbbK5hXi7
 
 
-
-
-  Image credit:<!--StartFragment-->
-
-
   Photo by [Dakota Corbin](https://unsplash.com/@thedakotacorbin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/volunteer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-
-  <!--EndFragment-->
 ---

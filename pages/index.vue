@@ -46,7 +46,8 @@ export default defineComponent({
   async asyncData(context) {
     const spotlights = await context.$content("spotlight").fetch();
     const spotlight = spotlights[0];
-    const testimonials = await context.$content("testimonials").fetch();
+    let testimonials = await context.$content("testimonials").fetch();
+    testimonials.sort((a,b) => a.order > b.order ? 1 : -1);
     const slides = testimonials.map(x => {
       return {
         content: `<figure><blockquote>${x.quote}</blockquote><figcaption>${x.caption}</figcaption></figure>`

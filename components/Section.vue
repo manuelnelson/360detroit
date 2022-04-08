@@ -90,50 +90,65 @@ export default defineComponent({
   props: {
     spotlight: Object   
   },
+  async asyncData(context) {
+    const testimonials = await context.$content("testimonials").fetch();
+    const slides = testimonials.map(x => {
+      return {
+        content: `<figure>
+          <blockquote>${x.quote}</blockquote>
+          <figcaption>${x.caption}</figcaption>             
+        </figure>`
+      }
+    })
+    return {
+      slides,
+    };
+  },
+
   setup () {
     const data = reactive({
-      slides: [
-        {
-          content: `
-          <figure>
-            <blockquote>360 Detroit, Inc. is an organization I am proud to have in my community. They take a holistic approach to community development by sharing relevant updates and City programs, offering volunteer activities within the neighborhood, helping residents to find funding for their projects, providing wellness and self-care activities and coordinating fresh food distribution during times of need. 360 Detroit, Inc. is also very organized, which makes it easy to stay connected and informed of their work. Thank you to 360 Detroit, Inc. for all that you do!</blockquote>
-            <figcaption>Monique Becker, Partner of Mona Lisa Development</figcaption>
-          </figure> 
-             `
-        },
-        {
-          content: `
-          <figure>
-            <blockquote>360 Detroit, Inc. has been working diligently to improve the quality of life for the residents in the Virginia Park Community.  The organization is paramount to the community and its continued revitalization.</blockquote>
-            <figcaption>Chris Lambert, CEO of Life Remodeled </figcaption>
-          </figure> 
-        `
-        },
-        {
-          content: `
-          <figure>
-            <blockquote>360 Detroit, Inc. is an organization with a heart for people in its neighborhood. It has vision and integrity and great plans for uplifting all who live in the Virginia Park Area.</blockquote>
-            <figcaption>David Brown, Volunteer & Retired Pastor</figcaption>
-          </figure> 
-        `
-        },
-        {
-          content: `
-          <figure>
-            <blockquote>360 Detroit was established at a time when city departments, investors and residents were indifferent and reluctant to ‘get involved’…. has consistently worked at a grass roots level to arrange, direct and complete several projects to remove blight and improve the quality of life for those most neglected in Detroit’s resurgence.</blockquote>
-            <figcaption>Dr. Althea Armstrong, Resident</figcaption>
-          </figure> 
-        `
-        },
-        {
-          content: `
-          <figure>
-            <blockquote>Thank you for inviting us to the 360 Detroit Inc Block Party! We had a great time and were really impressed by the work you have done in the community. What an awesome neighborhood. I wanted to pass this along to you because I thought that you were a really dynamic and well-organized agency and I think you should share your success!”   </blockquote>
-            <figcaption>Theresa Tejada, Program Coordinator II National Kidney Foundation of Michigan</figcaption>
-          </figure> 
-        `
-        },
-      ]
+      // slides: [
+      //   {
+      //     content: `
+      //     <figure>
+      //       <blockquote>360 Detroit, Inc. is an organization I am proud to have in my community. They take a holistic approach to community development by sharing relevant updates and City programs, offering volunteer activities within the neighborhood, helping residents to find funding for their projects, providing wellness and self-care activities and coordinating fresh food distribution during times of need. 360 Detroit, Inc. is also very organized, which makes it easy to stay connected and informed of their work. Thank you to 360 Detroit, Inc. for all that you do!</blockquote>
+      //       <figcaption>Monique Becker, Partner of Mona Lisa Development</figcaption>
+      //     </figure> 
+      //        `
+      //   },
+      //   {
+      //     content: `
+      //     <figure>
+      //       <blockquote>360 Detroit, Inc. has been working diligently to improve the quality of life for the residents in the Virginia Park Community.  The organization is paramount to the community and its continued revitalization.</blockquote>
+      //       <figcaption>Chris Lambert, CEO of Life Remodeled </figcaption>
+      //     </figure> 
+      //   `
+      //   },
+      //   {
+      //     content: `
+      //     <figure>
+      //       <blockquote>360 Detroit, Inc. is an organization with a heart for people in its neighborhood. It has vision and integrity and great plans for uplifting all who live in the Virginia Park Area.</blockquote>
+      //       <figcaption>David Brown, Volunteer & Retired Pastor</figcaption>
+      //     </figure> 
+      //   `
+      //   },
+      //   {
+      //     content: `
+      //     <figure>
+      //       <blockquote>360 Detroit was established at a time when city departments, investors and residents were indifferent and reluctant to ‘get involved’…. has consistently worked at a grass roots level to arrange, direct and complete several projects to remove blight and improve the quality of life for those most neglected in Detroit’s resurgence.</blockquote>
+      //       <figcaption>Dr. Althea Armstrong, Resident</figcaption>
+      //     </figure> 
+      //   `
+      //   },
+      //   {
+      //     content: `
+      //     <figure>
+      //       <blockquote>Thank you for inviting us to the 360 Detroit Inc Block Party! We had a great time and were really impressed by the work you have done in the community. What an awesome neighborhood. I wanted to pass this along to you because I thought that you were a really dynamic and well-organized agency and I think you should share your success!”   </blockquote>
+      //       <figcaption>Theresa Tejada, Program Coordinator II National Kidney Foundation of Michigan</figcaption>
+      //     </figure> 
+      //   `
+      //   },
+      // ]
     });
     // const spotlight = prop
     return {

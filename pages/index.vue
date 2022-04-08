@@ -14,7 +14,7 @@
       </vueper-slides>
 
     </div>
-    <section-component :spotlight="spotlight"></section-component>
+    <section-component :slides="slides" :spotlight="spotlight"></section-component>
     <!-- <section-services></section-services> -->
     <!-- <section class="blue p-8">
       <h3 class="text-5xl font- mt-10 mb-6">Latest</h3>
@@ -46,9 +46,14 @@ export default defineComponent({
   async asyncData(context) {
     const spotlights = await context.$content("spotlight").fetch();
     const spotlight = spotlights[0];
-    // console.log(spotlight);
+    const testimonials = await context.$content("testimonials").fetch();
+    const slides = testimonials.map(x => {
+      return {
+        content: `<figure><blockquote>${x.quote}</blockquote><figcaption>${x.caption}</figcaption></figure>`
+      }
+    });
     return {
-      spotlight,
+      spotlight, slides
     };
   },
   setup() {

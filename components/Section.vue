@@ -88,24 +88,9 @@ import 'vueperslides/dist/vueperslides.css';
 export default defineComponent({
   components: {VueperSlides, VueperSlide},
   props: {
-    spotlight: Object   
+    spotlight: Object,
+    slides: Array   
   },
-  async asyncData(context) {
-    const testimonials = await context.$content("testimonials").fetch();
-    const slides = testimonials.map(x => {
-      return {
-        content: `<figure>
-          <blockquote>${x.quote}</blockquote>
-          <figcaption>${x.caption}</figcaption>             
-        </figure>`
-      }
-    });
-    console.log(slides);
-    return {
-      slides,
-    };
-  },
-
   setup () {
     const data = reactive({
       // slides: [

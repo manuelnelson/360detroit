@@ -52,8 +52,20 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Quote', name: 'title', widget: 'markdown' }
-      - { label: 'Caption', name: 'content', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Quote', name: 'quote', widget: 'markdown' }
+      - { label: 'Caption', name: 'caption', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Order', name: 'order', widget: 'number' }
+  - name: 'homeimages'
+    label: 'Home Images'
+    folder: 'content/homeimages'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: true }
 
       

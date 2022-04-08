@@ -3,7 +3,7 @@
     <div class="home__hero">
       <vueper-slides fade :touchable="false">
         <vueper-slide
-          v-for="(slide, i) in slides"
+          v-for="(slide, i) in homeImages"
           :key="i"
           :image="slide.image"          
           > 
@@ -48,13 +48,15 @@ export default defineComponent({
     const spotlight = spotlights[0];
     let testimonials = await context.$content("testimonials").fetch();
     testimonials.sort((a,b) => a.order > b.order ? 1 : -1);
+    let homeImages = await context.$content("homeimages").fetch();
+    homeImages.sort((a,b) => a.order > b.order ? 1 : -1);
     const slides = testimonials.map(x => {
       return {
         content: `<figure><blockquote>${x.quote}</blockquote><figcaption>${x.caption}</figcaption></figure>`
       }
     });
     return {
-      spotlight, slides
+      spotlight, slides, homeImages
     };
   },
   setup() {
@@ -71,23 +73,23 @@ export default defineComponent({
     const { title } = useMeta({ title: `${routes.home.meta.title}` })
     //configure data
     const data = reactive({
-      slides: [
-        {
-          image: require('~/assets/images/Aa.jpg'),
-        },
-        {
-          image: require('~/assets/images/F.jpg'),
-        },
-        {
-          image: require('~/assets/images/H.jpg'),
-        },
-        {
-          image: require('~/assets/images/U Extras.jpg'),
-        },
-        {
-          image: require('~/assets/images/Ab.jpg'),
-        },
-      ]
+      // slides: [
+      //   {
+      //     image: require('~/assets/images/Aa.jpg'),
+      //   },
+      //   {
+      //     image: require('~/assets/images/F.jpg'),
+      //   },
+      //   {
+      //     image: require('~/assets/images/H.jpg'),
+      //   },
+      //   {
+      //     image: require('~/assets/images/U Extras.jpg'),
+      //   },
+      //   {
+      //     image: require('~/assets/images/Ab.jpg'),
+      //   },
+      // ]
     });
     const isLoading = computed(() => {
       // return globalStore.state.isLoading;

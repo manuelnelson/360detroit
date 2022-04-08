@@ -43,5 +43,17 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Content', name: 'content', widget: 'markdown' }
+  - name: 'testimonials'
+    label: 'Testimonials'
+    folder: 'content/testimonials'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Quote', name: 'title', widget: 'markdown' }
+      - { label: 'Caption', name: 'content', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
 
       

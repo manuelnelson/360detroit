@@ -10,5 +10,5 @@ quote: 360 Detroit, Inc. is an organization I am proud to have in my community.
   Inc. for all that you do!
 caption: Monique Becker, Partner of Mona Lisa Development
 date: 2022-04-08T14:10:17.880Z
-order: 1 
+order: 1
 ---

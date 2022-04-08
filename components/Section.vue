@@ -99,7 +99,8 @@ export default defineComponent({
           <figcaption>${x.caption}</figcaption>             
         </figure>`
       }
-    })
+    });
+    console.log(slides);
     return {
       slides,
     };

@@ -7,7 +7,7 @@ quote: 360 Detroit, Inc. is an organization I am proud to have in my community.
   wellness and self-care activities and coordinating fresh food distribution
   during times of need. 360 Detroit, Inc. is also very organized, which makes it
   easy to stay connected and informed of their work. Thank you to 360 Detroit,
-  Inc. for all that you do! T
+  Inc. for all that you do!
 caption: Monique Becker, Partner of Mona Lisa Development
 date: 2022-04-08T14:10:17.880Z
 order: 1

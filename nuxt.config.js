@@ -46,7 +46,8 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/composition-api'
+    '@nuxtjs/composition-api',
+    '@nuxtjs/google-analytics'
   ],
   generate: {
     interval: 2000
@@ -59,6 +60,9 @@ export default {
   markdownit: {
     breaks: true,
     // runtime: true,
+  },
+  googleAnalytics: {
+    id: 'G-QQLHHG8EPC'
   },
   content: [],
   ssr: true,

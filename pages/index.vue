@@ -14,7 +14,7 @@
       </vueper-slides>
 
     </div>
-    <section-component :slides="slides" :spotlight="spotlight"></section-component>
+    <section-component :accomplished="accomplished" :slides="slides" :spotlight="spotlight"></section-component>
     <!-- <section-services></section-services> -->
     <!-- <section class="blue p-8">
       <h3 class="text-5xl font- mt-10 mb-6">Latest</h3>
@@ -50,13 +50,15 @@ export default defineComponent({
     testimonials.sort((a,b) => a.order > b.order ? 1 : -1);
     let homeImages = await context.$content("homeimages").fetch();
     homeImages.sort((a,b) => a.order > b.order ? 1 : -1);
+    let accomplished = await context.$content("accomplished").fetch();
+    accomplished.sort((a,b) => a.order > b.order ? 1 : -1);
     const slides = testimonials.map(x => {
       return {
         content: `<figure><blockquote>${x.quote}</blockquote><figcaption>${x.caption}</figcaption></figure>`
       }
     });
     return {
-      spotlight, slides, homeImages
+      spotlight, slides, homeImages, accomplished
     };
   },
   setup() {

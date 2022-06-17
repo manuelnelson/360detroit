@@ -29,18 +29,18 @@
   <section class="white relative z-depth-2 z-40 center">
       <h3 v-scrollinto="" class="text-5xl mb-4 align-center text--secondary">What We’ve Accomplished</h3>
       <div v-scrollinto="" class="flex justify-center m-auto flex-wrap">
-        <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 blue">
-          <i class="material-icons text-secondary text-6xl">house</i>
-          <h4 class="text-3xl">8,000+ Square feet</h4>
-          <p>of blighted land developed/repurposed into useable green space</p>
+        <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 blue" v-for="(accomplish,ndx) in accomplished" :key="ndx">
+          <i class="material-icons text-secondary text-6xl">{{accomplish.icon}}</i>
+          <h4 class="text-3xl">{{accomplish.title}}</h4>
+          <p v-if="accomplish.moreText">{{accomplish.moreText}}</p>
         </div>
-        <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 blue">
+        <!-- <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 blue">
           <i class="material-icons text-secondary text-6xl">lock</i>
           <h4 class="text-3xl mb-3">750+ Gun Locks Distributed</h4>
         </div>
         <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 blue">
           <i class="material-icons text-secondary text-6xl">supervisor_account</i>
-          <h4 class="text-3xl mb-3">2,500 People Served</h4>
+          <h4 class="text-3xl mb-3">  </h4>
         </div>
         <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 blue">
           <i class="material-icons text-secondary text-6xl">school</i>
@@ -53,7 +53,7 @@
         <div class="w-full md:w-1/3 lg:w-1/4 m-4 p-8 z-depth-2 blue">
           <i class="material-icons text-secondary text-6xl">volunteer_activism</i>
           <h4 class="text-3xl mb-3">1,000+ Volunteers Engaged</h4>
-        </div>
+        </div> -->
       </div>
   </section>
   <section class="blue p-10 relative z-depth-2 z-40 rich-text text-center">
@@ -89,7 +89,8 @@ export default defineComponent({
   components: {VueperSlides, VueperSlide},
   props: {
     spotlight: Object,
-    slides: Array   
+    slides: Array,
+    accomplished: Array,   
   },
   setup () {
     const data = reactive({

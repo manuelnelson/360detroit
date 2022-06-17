@@ -35,6 +35,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/scrollinto.client.ts',
+    '~/plugins/google-analytics.ts',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -47,7 +48,6 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/composition-api',
-    '@nuxtjs/google-analytics'
   ],
   generate: {
     interval: 2000
@@ -60,9 +60,6 @@ export default {
   markdownit: {
     breaks: true,
     // runtime: true,
-  },
-  googleAnalytics: {
-    id: 'G-QQLHHG8EPC'
   },
   content: [],
   ssr: true,

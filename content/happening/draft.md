@@ -21,7 +21,4 @@ content: >-
 
 
   ![](/img/brick-paver-dedication-invite-2022.png)
-
-
-  Test
 ---

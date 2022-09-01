@@ -114,14 +114,21 @@
           </div>
         </div>
         <div class="person-item z-depth-2 p-8 m-3">
-          <h3>Anjelica King</h3>
+          <h3>Tamara Hunter</h3>
           <span class="block font-bold">Member at Large</span>
           <div class="mt-4 rich-text">
             <p>Member at large</p>
           </div>
         </div>
         <div class="person-item z-depth-2 p-8 m-3">
-          <h3>Ingrid Macon</h3>
+          <h3>Phillip Caldwell</h3>
+          <span class="block font-bold">Member at Large</span>
+          <div class="mt-4 rich-text">
+            <p>Member at large</p>
+          </div>
+        </div>
+        <div class="person-item z-depth-2 p-8 m-3">
+          <h3>Phyllis Edwards</h3>
           <span class="block font-bold">Member at Large</span>
           <div class="mt-4 rich-text">
             <p>Member at large</p>

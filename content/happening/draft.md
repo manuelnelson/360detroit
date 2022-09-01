@@ -1,19 +1,29 @@
 ---
 title: Upcoming Events
 date: 2021-08-20T16:57:50.147Z
-content: >-
-  **YOU'RE INVITED!**
+content: |-
+  ### September 10th
 
-   **Movie, Dinner & Camping in 360 Park! 
-   Saturday, September 17, 2022, 6pm**
+  10 am -  Yoga
 
-  **Join us for a night under the stars!  Dinner, Movie & Camping Fun! 
+  11 am - Zumba 
 
-  Registration is required for Dinner & Camping!
+  1 pm - Art: Making Art with a Compass
 
-  http://tiny.cc/360Events2022**
+  ### September 17th
 
-   Invite someone and bring a friend.  Hope to see you next week.  Check out our Facebook page for highlights.
+  6pm - Movie, Dinner & Camping in 360 Park
+
+  ### 
+  **September 24**   
+
+  10 am -  Yoga
+
+  11 am - Zumba
+
+  1 pm - Art: Create Your Own Work of Art
+
+
 
   ![](/img/brick-paver-dedication-invite-2022.png)
 ---

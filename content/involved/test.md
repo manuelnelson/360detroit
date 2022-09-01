@@ -8,37 +8,9 @@ content: >-
   ## Sign up to VOLUNTEER today! 
 
 
-  **Community Cleanup/Garden Planting**
-
-  April 9 | 12pm
-
-  https://forms.gle/dNY2SJy8h1b6Coqc7
-
-
-  **Kids to Park Day**
-
-  May 21st | Time TBD
-
-  https://forms.gle/t4gKiVAhFWPLy3ZW7
-
-
-  **Sports in the Park**
-
-  July12th - August 11th Tuesdays & Thursdays, 9am-12pm
-
-  http://tiny.cc/360SportsVol
-
-
-  **Community Block Party** 
-
-  August 13th 8am-7pm
-
-  https://forms.gle/PFi7BVpnmURZpN4D6
-
-
   **Camping in the Park** 
 
-  August 13th 7pm - August 14th 10am
+  September 17th 6pm 
 
   https://forms.gle/CoEmfFNiBbbK5hXi7
 

@@ -2,17 +2,23 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  **YOU'RE INVITED!**
-
-   **Movie, Dinner & Camping in 360 Park! 
-   Saturday, September 17, 2022, 6pm**
+  <!--StartFragment-->
 
 
-  **Join us for a night under the stars!  Dinner, Movie & Camping Fun! 
+  **Basic Tablet Training with Free Tablet***  \
 
-  Registration is required for Dinner & Camping!
+  **Wednesday, November 9th - 4:30pm**\
 
-  http://tiny.cc/360Events2022**
+  \
+
+  FREE Basic Skills Session.  Learn how to use to stay connected & have fun!\
+
+  **Registration Required!**   [http://tiny.cc/​360FreeTablet](http://tiny.cc/360FreeTablet?mc_cid=48348766b5&mc_eid=UNIQID)\
+
+  *\*Confirmed registration & session participation required.  Limited supplies.*
+
+
+  <!--EndFragment-->
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.
@@ -22,5 +28,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/movie-camping-flyer-9-24-22.png
+image: /img/basic-tablet-training-11-9-22.png
 ---

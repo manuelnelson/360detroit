@@ -2,13 +2,13 @@
 title: Upcoming Events
 date: 2021-08-20T16:57:50.147Z
 content: |-
-  ### **September 24**
+  ### **Wednesday, November 9**
 
-  10 am -  Yoga
+  Join us for FREE Basic Tablet Training
 
-  11 am - Zumba
+  4:30 pm
 
-  1 pm - Art: Create Your Own Work of Art
+  The Congregation Detroit
 
-  ![](/img/sep-24-yogazumbaart.png)
+  ![](/img/basic-tablet-training-11-9-22.png)
 ---

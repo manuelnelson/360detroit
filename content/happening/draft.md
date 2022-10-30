@@ -22,5 +22,5 @@ content: |-
 
   T﻿he Congregation Detroit
 
-  ![]()
+  ![](/img/yogazumbaart-nov-2022-1-.png)
 ---

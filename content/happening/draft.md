@@ -6,6 +6,8 @@ content: |-
 
   S﻿ee flyer below for dates and times.
 
+
+
   ### **Wednesday, November 9**
 
   4:30pm - FREE Basic Tablet Training
@@ -13,6 +15,8 @@ content: |-
   6:00pm - Community Meeting
 
   The Congregation Detroit
+
+
 
   ### **Wednesday, December 14**
 

@@ -2,9 +2,6 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  <!--StartFragment-->
-
-
   **Basic Tablet Training with Free Tablet***  \
 
   **Wednesday, November 9th - 4:30pm**\
@@ -16,9 +13,6 @@ content: >-
   **Registration Required!**   [http://tiny.cc/​360FreeTablet](http://tiny.cc/360FreeTablet?mc_cid=48348766b5&mc_eid=UNIQID)\
 
   *\*Confirmed registration & session participation required.  Limited supplies.*
-
-
-  <!--EndFragment-->
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.

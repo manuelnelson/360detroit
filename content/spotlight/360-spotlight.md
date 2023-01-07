@@ -2,17 +2,25 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  **Basic Tablet Training with Free Tablet***  \
+  **Community Meeting**  \
 
-  **Wednesday, November 9th - 4:30pm**\
+  **Wednesday, January 11, 6:00pm**
+
+
+  **The Congregation Detroit
+
+  9321 Rosa Parks Blvd
+
+  Detroit, MI 48206**\
 
   \
 
-  FREE Basic Skills Session.  Learn how to use to stay connected & have fun!\
+  **Join us for our first community meeting of the year.**
 
-  **Registration Required!**   [http://tiny.cc/​360FreeTablet](http://tiny.cc/360FreeTablet?mc_cid=48348766b5&mc_eid=UNIQID)\
 
-  *\*Confirmed registration & session participation required.  Limited supplies.*
+  **S﻿tay for Hustle Line Dancing at 7:15pm!**
+
+
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.
@@ -22,5 +30,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/basic-tablet-training-11-9-22.png
+image: /img/jan-11-community-meeting-2-.jpg
 ---

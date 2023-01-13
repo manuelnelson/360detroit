@@ -1,11 +1,12 @@
 ---
 title: Upcoming Events
 date: 2021-08-20T16:57:50.147Z
-content: |-
+content: >-
   ### **Join us for Zumba & a Family Focused Art Session**
-  All Ages Welcome! Children Encouraged!
-  Bring your whole family for a fun session - Register Today!
-  http://tiny.cc/360Events2023
 
-  ![](/img/jan-14-zumbachildren-s-art-1-.jpg)
+
+  Join us as we explore sound healing through the use of crystal & Tibetan singing bowls, rainstick, small steel tongue drum, Shekere, and Indian flute. 
+
+
+  ![](/img/copy-of-jan-20-sound-therapy.jpg)
 ---

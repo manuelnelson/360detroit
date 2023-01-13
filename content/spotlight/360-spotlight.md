@@ -2,25 +2,13 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  **Community Meeting**  \
+  ### **Join us for Zumba & a Family Focused Art Session**
 
-  **Wednesday, January 11, 6:00pm**
+  All Ages Welcome! Children Encouraged!
 
+  Bring your whole family for a fun session - Register Today!
 
-  **The Congregation Detroit
-
-  9321 Rosa Parks Blvd
-
-  Detroit, MI 48206**\
-
-  \
-
-  **Join us for our first community meeting of the year.**
-
-
-  **S﻿tay for Hustle Line Dancing at 7:15pm!**
-
-
+  http://tiny.cc/360Events2023
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.
@@ -30,5 +18,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/jan-11-community-meeting-2-.jpg
+image: /img/jan-14-zumbachildren-s-art-1-.jpg
 ---

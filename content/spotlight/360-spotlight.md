@@ -2,11 +2,14 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  ### **Join us for Zumba & a Family Focused Art Session**
+  ### **WELLNESS WEDNESDAY!**
 
-  All Ages Welcome! Children Encouraged!
 
-  Bring your whole family for a fun session - Register Today!
+  #### 
+
+  Join the dance party with Zumba! 
+
+  Relax & release with Yoga!
 
   http://tiny.cc/360Events2023
 
@@ -18,5 +21,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/jan-14-zumbachildren-s-art-1-.jpg
+image: /img/jan-18-zumbayoga.png
 ---

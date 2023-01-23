@@ -5,13 +5,11 @@ content: >-
   ### **WELLNESS WEDNESDAY!**
 
 
-  #### 
+  Are you staying on track with your health goals?
 
-  Join the dance party with Zumba! 
+  Join us for some movement with Zumba & Yoga!
 
-  Relax & release with Yoga!
-
-  http://tiny.cc/360Events2023
+  tiny.cc/360Events2023
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.
@@ -21,5 +19,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/jan-18-zumbayoga.png
+image: /img/jan-25-zumbayoga.png
 ---

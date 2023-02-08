@@ -1,12 +1,16 @@
 ---
 title: Upcoming Events
 date: 2021-08-20T16:57:50.147Z
-content: >-
-  ### **HUSTLE, ZUMBA & ART!**
+content: |-
+  ### **ZUMBA & YOGA!**
 
+  Join us for our Wellness Wednesday!
 
-  Join us for our Saturday Sessions: Hustle, Zumba and Art. Sign up TODAY @ http://tiny.cc/360Events2023!
+  February 15, 2023
 
+  The Congregation Detroit | 9321 Rosa Parks Blvd
 
-  ![](/img/21123-saturday-session.png)
+  Sign up TODAY @ http://tiny.cc/360Events2023!
+
+  ![](/img/feb-15-zumba-and-yoga.jpg)
 ---

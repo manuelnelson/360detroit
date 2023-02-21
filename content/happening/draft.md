@@ -2,15 +2,15 @@
 title: Upcoming Events
 date: 2021-08-20T16:57:50.147Z
 content: |-
-  ### **ZUMBA & YOGA!**
+  ### **HUSTLE LINE DANCING**
 
-  Join us for our Wellness Wednesday!
+  Join us for our Hustle Line Dancing.
 
-  February 15, 2023
+  February 24, 2023
 
-  The Congregation Detroit | 9321 Rosa Parks Blvd
+  ART Block | 1411 Holden
 
-  Sign up TODAY @ http://tiny.cc/360Events2023!
+  Sign up TODAY @ http://tiny.cc/360Events2023
 
-  ![](/img/feb-15-zumba-and-yoga.jpg)
+  ![](/img/feb-24-line-dancing.png)
 ---

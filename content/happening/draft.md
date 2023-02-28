@@ -2,17 +2,19 @@
 title: Upcoming Events
 date: 2021-08-20T16:57:50.147Z
 content: |-
-  ### **GET MOVING WITH US!**
+  ### **COMMUNITY MEETING & HUSTLE LINE DANCING**
 
-  ##### We are hosting Zumba & Yoga.
+  ##### J﻿OIN US FOR THE COMMUNITY MEETING & STAY TO HUSTLE WITH US
 
-  March 1
+  March 8
 
-  6﻿:00 pm Zumba
+  T﻿he Congregation | 9321 Rosa Parks Blvd
 
-  7﻿:15 pm Yoga
+  6﻿:00 pm Community Meeting
+
+  7﻿:15 pm Hustle Line Dancing
 
   Sign up TODAY @ http://tiny.cc/360Events2023
 
-  ![](/img/mar-1-zumbayoga.jpg)
+  ![](/img/march-2023-community-meeting-.jpg)
 ---

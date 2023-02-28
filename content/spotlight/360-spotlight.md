@@ -2,31 +2,15 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  ### Get moving, get creative.  Join us for some fun activities!
+  ### Get moving with Z﻿umba & Yoga!
 
 
-  #### Z﻿umba & Art
+  March 1
 
 
-  Saturday, February 25
+  6pm Zumba
 
-
-  1﻿2:30 pm Zumba
-
-
-  2﻿:00 pm Art
-
-
-  T﻿he Congregation | 9321 Rosa Parks Blvd
-
-
-  ### Y﻿oga
-
-
-  S﻿unday, February 26
-
-
-  3﻿:30 pm
+  7:15pm Yoga
 
 
   T﻿he Congregation | 9321 Rosa Parks Blvd
@@ -42,5 +26,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/feb-24-25-26-activities-1-.jpg
+image: /img/mar-1-zumbayoga-1-.jpg
 ---

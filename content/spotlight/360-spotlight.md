@@ -2,18 +2,22 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  ### Get moving with Z﻿umba & Yoga!
+  ### COMMUNITY MEETING & HUSTLE LINE DANCING
 
 
-  March 1
 
+  J﻿OIN US FOR THE COMMUNITY MEETING & STAY TO HUSTLE WITH US
 
-  6pm Zumba
-
-  7:15pm Yoga
+  March 8
 
 
   T﻿he Congregation | 9321 Rosa Parks Blvd
+
+
+  6﻿:00 pm Community Meeting
+
+
+  7﻿:15 pm Hustle Line Dancing
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -26,5 +30,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/mar-1-zumbayoga-1-.jpg
+image: /img/march-2023-community-meeting-.jpg
 ---

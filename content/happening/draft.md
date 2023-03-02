@@ -2,19 +2,17 @@
 title: Upcoming Events
 date: 2021-08-20T16:57:50.147Z
 content: |-
-  ### **COMMUNITY MEETING & HUSTLE LINE DANCING**
+  ### **Zumba & Art**
 
-  ##### J﻿OIN US FOR THE COMMUNITY MEETING & STAY TO HUSTLE WITH US
+  March 11
 
-  March 8
+  12:30 pm Zumba
+
+  2﻿:00 pm Art: Family-Focus
 
   T﻿he Congregation | 9321 Rosa Parks Blvd
 
-  6﻿:00 pm Community Meeting
-
-  7﻿:15 pm Hustle Line Dancing
-
   Sign up TODAY @ http://tiny.cc/360Events2023
 
-  ![](/img/march-2023-community-meeting-.jpg)
+  ![](/img/mar-11-zumbafamily-art.jpg)
 ---

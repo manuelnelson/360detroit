@@ -2,19 +2,18 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  ### COMMUNITY MEETING & HUSTLE LINE DANCING
+  ### ZUMBA & ART
 
 
-  J﻿OIN US FOR THE COMMUNITY MEETING & STAY TO HUSTLE WITH US
+  ### 
+
+  March 11
 
 
-  March 8
+  12:30 pm Zumba
 
 
-  6﻿:00 pm Community Meeting
-
-
-  7﻿:15 pm Hustle Line Dancing
+  2﻿:00 pm Art: Family-Focus
 
 
   T﻿he Congregation | 9321 Rosa Parks Blvd
@@ -30,5 +29,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/march-2023-community-meeting-.jpg
+image: /img/mar-11-zumbafamily-art.jpg
 ---

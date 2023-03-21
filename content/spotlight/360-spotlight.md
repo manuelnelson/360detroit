@@ -2,21 +2,14 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  ### ZUMBA & ART
+  ### YOGA
 
 
-  ### 
+  MARCH 22
 
-  March 11
+  7:15 PM
 
-
-  12:30 pm Zumba
-
-
-  2﻿:00 pm Art: Family-Focus
-
-
-  T﻿he Congregation | 9321 Rosa Parks Blvd
+  The Congregation | 9321 Rosa Parks
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -29,5 +22,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/mar-11-zumbafamily-art.jpg
+image: /img/march-22-yoga.jpg
 ---

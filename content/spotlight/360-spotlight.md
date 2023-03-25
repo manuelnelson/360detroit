@@ -2,12 +2,18 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  ### YOGA
+  ### Saturday Session!
 
 
-  MARCH 22
+  H﻿USTLE! ZUMBA! ART!
 
-  7:15 PM
+
+  MARCH 25
+
+
+
+  The Art Block | 1411 Holden Street
+
 
   The Congregation | 9321 Rosa Parks
 
@@ -22,5 +28,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/march-22-yoga.jpg
+image: /img/sat-session.png
 ---

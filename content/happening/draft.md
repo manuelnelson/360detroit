@@ -2,11 +2,9 @@
 title: Upcoming Events
 date: 2021-08-20T16:57:50.147Z
 content: |-
-  ### **Join us for our Saturday Sessions!**
-
-  Hustle! Zumba! Art!
+  ### **Join us Yoga!**
 
   Sign up TODAY @ http://tiny.cc/360Events2023
 
-  ![](/img/march-25-saturday-session.jpg)
+  ![](/img/march-26-yoga.jpg)
 ---

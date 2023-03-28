@@ -2,20 +2,16 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  ### Saturday Session!
+  ### Join us for Zumba and Yoga!
 
 
-  H﻿USTLE! ZUMBA! ART!
+  W﻿ednesday, March 29
 
 
-  MARCH 25
+  6﻿pm Zumba
 
 
-
-  The Art Block | 1411 Holden Street
-
-
-  The Congregation | 9321 Rosa Parks
+  7﻿:15pm Yoga
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -28,5 +24,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/sat-session.png
+image: /img/march-29-zumbayoga-.jpg
 ---

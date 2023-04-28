@@ -2,22 +2,7 @@
 title: "360 Spotlight "
 date: 2022-04-06T00:54:26.598Z
 content: >-
-  ### Join us for our Community Meeting.
-
-
-  ### S﻿tay for Hustle Line Dancing!
-
-
-  W﻿ednesday, April 12
-
-
-  6﻿pm - Community Meeting
-
-
-  7﻿:15pm - Hustle Line Dancing
-
-
-  9321 Rosa Parks Blvd
+  ### See What's Happening!
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -30,5 +15,5 @@ content: >-
 
 
   View [Our Brochure here](http://localhost:3000/360%20Detroit%20Brochure.pdf)!
-image: /img/april-12-community-meeting.jpg
+image: /img/events.png
 ---

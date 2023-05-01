@@ -61,7 +61,6 @@
       <h3 class="text-5xl mb-4 text--secondary">Help 360 Detroit, Inc. Make an Impact</h3>
       <p>Impact the lives of our community individuals and families by assisting us as we make our community more viable. The power of your support is in the unity that it creates as you support us with your donation.</p>
       <p>Your generosity is dynamic in improving our community.</p>
-      <p>Shop <a target="_blank" href="https://smile.amazon.com/ch/47-1423553">Amazon Smiles</a> and 360 Detroit, Inc. receives donation</p>
     </div>
   </section>
   <section class="white relative z-depth-2 z-40 rich-text text-center">

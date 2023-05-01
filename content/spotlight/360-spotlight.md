@@ -14,6 +14,6 @@ content: >-
   As a conduit for change and revitalization, we strive to create and maintain viable, safe communities within Detroit.
 
 
-  View Our Brochure here!
+  View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
 image: /img/events.png
 ---

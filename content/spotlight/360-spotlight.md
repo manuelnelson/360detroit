@@ -5,15 +5,27 @@ content: >-
   ### See What's Happening!
 
 
+  W﻿E WANT TO HEAR FROM YOU! COMPLETE OUR SURVEY BY SUNDAY, JULY 16.
+
+
+  [https://www.surveymonkey.com/​r/7PVBWSZ](https://www.surveymonkey.com/r/7PVBWSZ)
+
+
+  July 9 - Trap Yoga
+
+
+  J﻿uly 12 - Super Mario Bros. Movie
+
+
   Sign up TODAY @ http://tiny.cc/360Events2023
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.
 
 
-  As a conduit for change and revitalization, we strive to create and maintain viable, safe communities within Detroit.
+  As a conduit for change and revitalization, we strive to create and maintain viable, safe communities within Detroit
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/events.png
+image: /img/merged_document-1-.jpg
 ---

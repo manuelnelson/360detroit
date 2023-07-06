@@ -2,7 +2,7 @@
 title: Volunteer today!
 date: 2021-08-20T16:15:28.197Z
 content: >-
-  ![](/img/park-paver.png)
+  ![](/img/merged_document-3-.jpg)
 
 
   ## Sign up to VOLUNTEER today! 

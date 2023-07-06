@@ -6,5 +6,5 @@ content: |-
 
   Sign up TODAY @ http://tiny.cc/360Events2023
 
-  ![](/img/summer-at-360-park-1-.png)
+  ![](/img/what-s-happening-poster-1-.png)
 ---

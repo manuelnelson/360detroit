@@ -5,16 +5,9 @@ content: >-
   ### See What's Happening!
 
 
-  W﻿E WANT TO HEAR FROM YOU! COMPLETE OUR SURVEY BY SUNDAY, JULY 16.
 
 
-  [https://www.surveymonkey.com/​r/7PVBWSZ](https://www.surveymonkey.com/r/7PVBWSZ)
-
-
-  July 9 - Trap Yoga
-
-
-  J﻿uly 12 - Super Mario Bros. Movie
+  J﻿uly 19 - Westside Play, Zumba, Yoga and Super Mario Bros Movie!
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -27,5 +20,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-1-.jpg
+image: /img/merged_document-5-.jpg
 ---

@@ -18,5 +18,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-6-.jpg
+image: /img/merged_document-7-.jpg
 ---

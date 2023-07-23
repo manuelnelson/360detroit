@@ -5,7 +5,10 @@ content: >-
   ### See What's Happening!
 
 
-  J﻿uly 22 - Zumba, Yoga, Art & Drink To Your Health
+  J﻿uly 23 - Yoga
+
+
+  J﻿uly 26 - Cooking Matters, Westside Play, Zumba & Yoga!
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -18,5 +21,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-7-.jpg
+image: /img/merged_document-8-.jpg
 ---

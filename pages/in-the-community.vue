@@ -73,7 +73,8 @@ export default defineComponent({
       position relative 
       padding-left 40px
       background-image: url('~assets/images/volOpp.png');
-      background-size: cover;
+      background-size: contain;
+      background-repeat: no-repeat;
       background-position center 30%;
       background-color var(--primary)
       &:before

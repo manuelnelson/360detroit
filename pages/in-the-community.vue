@@ -72,7 +72,7 @@ export default defineComponent({
       width 100%
       position relative 
       padding-left 40px
-      background-image: url('~assets/images/whoweare.jpg');
+      background-image: url('~assets/images/volOpp.png');
       background-size: cover;
       background-position center 30%;
       background-color var(--primary)

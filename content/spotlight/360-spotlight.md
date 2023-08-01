@@ -5,10 +5,10 @@ content: >-
   ### See What's Happening!
 
 
-  J﻿uly 23 - Yoga
+  A﻿ugust 2 - Sports Play, Zumba & Yoga
 
 
-  J﻿uly 26 - Cooking Matters, Westside Play, Zumba & Yoga!
+  August 6 - Trap Yoga with Jamel
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -21,5 +21,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-8-.jpg
+image: /img/merged_document-9-.jpg
 ---

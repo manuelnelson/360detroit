@@ -5,10 +5,19 @@ content: >-
   ### See What's Happening!
 
 
-  A﻿ugust 2 - Sports Play, Zumba & Yoga
+  A﻿ugust 9 
 
 
-  August 6 - Trap Yoga with Jamel
+  11 am - Cooking Matters!
+
+
+  5﻿:30 pm - Westside Sports Play
+
+
+  6﻿:00 pm - Community Meeting
+
+
+  7﻿:15 pm - Hustle Dance
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -21,5 +30,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-9-.jpg
+image: /img/merged_document-10-.jpg
 ---

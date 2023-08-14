@@ -5,19 +5,27 @@ content: >-
   ### See What's Happening!
 
 
-  A﻿ugust 9 
+  A﻿ugust 16
 
 
-  11 am - Cooking Matters!
+  1﻿1am - Cooking Matters
 
 
-  5﻿:30 pm - Westside Sports Play
+  5﻿:30pm - Westside Sports Play
 
 
-  6﻿:00 pm - Community Meeting
+  6﻿:00pm - Zumba
 
 
-  7﻿:15 pm - Hustle Dance
+  7:15p - Hustle
+
+
+  8﻿:00pm - Movie in 3 Park60
+
+
+  8:15 - Yoga
+
+
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -30,5 +38,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-10-.jpg
+image: /img/aug-16.jpg
 ---

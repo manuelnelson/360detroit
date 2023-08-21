@@ -5,7 +5,7 @@ content: >-
   ### See What's Happening!
 
 
-  A﻿ugust 16
+  A﻿ugust 23
 
 
   1﻿1am - Cooking Matters
@@ -17,15 +17,7 @@ content: >-
   6﻿:00pm - Zumba
 
 
-  7:15p - Hustle
-
-
-  8﻿:00pm - Movie in 3 Park60
-
-
-  8:15 - Yoga
-
-
+  7:15p - Yoga
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -38,5 +30,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/aug-16.jpg
+image: /img/aug-23.jpg
 ---

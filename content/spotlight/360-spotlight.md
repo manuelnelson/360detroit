@@ -17,7 +17,7 @@ content: >-
   6﻿:00pm - Zumba
 
 
-  7:15p - Yoga
+  7:15pm - Yoga
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023

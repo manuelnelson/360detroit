@@ -1,5 +1,5 @@
 ---
 title: Third
-image: /img/h.jpg
+image: /img/art3.jpg
 order: 3
 ---

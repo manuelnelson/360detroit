@@ -1,5 +1,5 @@
 ---
 title: Second
-image: /img/f.jpg
+image: /img/board-session.jpg
 order: 2
 ---

@@ -5,18 +5,25 @@ content: >-
   ### See What's Happening!
 
 
-  J﻿OIN US FOR ALL OF OUR AMAZING ACTIVITIES!!!
+  J﻿OIN US FOR WONDERFUL WEDNESDAY ACTIVITIES!
 
 
-  September 6
+  September 13
 
 
-  6﻿:00pm - Zumba
+  5﻿:00 pm - Youth Advisory
+
+
+  6﻿:00 pm - Community Meeting
+
+
+  7﻿:15 pm - Zumba
+
+
+  8﻿:00 pm - Movie Night in 360 Park
 
 
   7:15pm - Yoga
-
-
 
 
   September 9
@@ -41,5 +48,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-11-.jpg
+image: /img/merged_document-12-.jpg
 ---

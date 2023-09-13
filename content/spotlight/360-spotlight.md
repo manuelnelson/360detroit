@@ -20,22 +20,14 @@ content: >-
   7﻿:15 pm - Zumba
 
 
+
+
+  September 16
+
+
   8﻿:00 pm - Movie Night in 360 Park
 
 
-  7:15pm - Yoga
-
-
-  September 9
-
-
-  1﻿0am - Zumba
-
-
-  1﻿1am - Yoga
-
-
-  1﻿2:30 - Art
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023

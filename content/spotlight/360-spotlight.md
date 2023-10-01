@@ -5,13 +5,19 @@ content: >-
   ### See What's Happening!
 
 
-  J﻿OIN US FOR ZUMBA!
+  October 4
 
 
-  September 27
+  6﻿:00pm - Zumba
 
 
-  6﻿:15 pm - Zumba
+  7﻿:30pm - Yoga
+
+
+  October 11
+
+
+  6﻿:00pm - Community Meeting
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -24,5 +30,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/97881.jpeg
+image: /img/merged_document-13-.jpg
 ---

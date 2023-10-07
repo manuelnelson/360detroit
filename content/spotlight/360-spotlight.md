@@ -5,19 +5,13 @@ content: >-
   ### See What's Happening!
 
 
-  October 4
-
-
-  6﻿:00pm - Zumba
-
-
-  7﻿:30pm - Yoga
-
-
   October 11
 
 
   6﻿:00pm - Community Meeting
+
+
+  7﻿:15pm - Hustle Dance Class
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -30,5 +24,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-13-.jpg
+image: /img/oct-11-community-mtg-1-.jpg
 ---

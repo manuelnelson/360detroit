@@ -5,10 +5,19 @@ content: >-
   ### See What's Happening!
 
 
-  October 18
+  October 28
 
 
-  6﻿:00pm - Hustle
+  C﻿ome out to an amazing day of celebration!!!
+
+
+  J﻿oin us for 360 Day! Tons of activities and fun.
+
+
+  Z﻿umba
+
+
+  M﻿eet
 
 
   7﻿:30pm - Yoga
@@ -30,5 +39,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-14-.jpg
+image: /img/360-day.png
 ---

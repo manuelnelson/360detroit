@@ -14,19 +14,18 @@ content: >-
   J﻿oin us for 360 Day! Tons of activities and fun.
 
 
-  Z﻿umba
+  12pm - Hustle Dance
 
 
-  M﻿eet
+  1pm - Zumba
 
 
-  7﻿:30pm - Yoga
+  2pm - Meet, Greet & Art
 
 
-  October 21
+  3pm - Archery
 
 
-  9﻿:00am - 2:00pm - Volunteer Service Day
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023

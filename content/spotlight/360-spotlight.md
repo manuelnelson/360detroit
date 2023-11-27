@@ -5,19 +5,31 @@ content: >-
   ### See What's Happening!
 
 
-  November 22
-
-
   C﻿ome out for our activities!
 
 
-  6pm - Zumba
+  **N﻿ovember 29**
 
 
-  7﻿:30pm - Yoga
+  6:00pm - Hustle
 
 
-  3pm - ArcherySign up TODAY @ http://tiny.cc/360Events2023
+  7:30pm - Yoga
+
+
+  **D﻿ecember 2**
+
+
+  1﻿1:30pm - Hustle
+
+
+  1﻿:00pm - Zumba
+
+
+  2﻿:00pm - Art
+
+
+  Sign up TODAY @ http://tiny.cc/360Events2023
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.
@@ -27,5 +39,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-15-.jpg
+image: /img/merged_document-16-.jpg
 ---

@@ -8,15 +8,6 @@ content: >-
   C﻿ome out for our activities!
 
 
-  **N﻿ovember 29**
-
-
-  6:00pm - Hustle
-
-
-  7:30pm - Yoga
-
-
   **D﻿ecember 2**
 
 
@@ -29,6 +20,15 @@ content: >-
   2﻿:00pm - Art
 
 
+  **D﻿ecember 6**
+
+
+  6﻿:00pm - Zumba
+
+
+  7﻿:30pm - Yoga
+
+
   Sign up TODAY @ http://tiny.cc/360Events2023
 
 
@@ -39,5 +39,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-16-.jpg
+image: /img/merged_document-17-.jpg
 ---

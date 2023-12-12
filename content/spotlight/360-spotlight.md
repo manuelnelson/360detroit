@@ -5,28 +5,19 @@ content: >-
   ### See What's Happening!
 
 
-  C﻿ome out for our activities!
+  C﻿ome out for our HOLIDAY PARTY!
 
 
-  **D﻿ecember 2**
+  **D﻿ecember 13**
 
 
-  1﻿1:30pm - Hustle
+  6﻿:00pm to 8:30pm
 
 
-  1﻿:00pm - Zumba
+  T﻿he Congregation Detroit
 
 
-  2﻿:00pm - Art
-
-
-  **D﻿ecember 6**
-
-
-  6﻿:00pm - Zumba
-
-
-  7﻿:30pm - Yoga
+  9321 Rosa Parks Blvd, Detroit, MI 48206
 
 
   Sign up TODAY @ http://tiny.cc/360Events2023
@@ -39,5 +30,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-17-.jpg
+image: /img/copy-of-run-on-dec-8-holiday-celebration.jpg
 ---

@@ -5,13 +5,16 @@ content: >-
   ### See What's Happening!
 
 
-  C﻿ome out for our HOLIDAY PARTY!
+  C﻿ome out for DANCE and YOGA!
 
 
-  **D﻿ecember 13**
+  **January 3**
 
 
-  6﻿:00pm to 8:30pm
+  6﻿:00pm Zumba
+
+
+  7﻿:30pm Yoga
 
 
   T﻿he Congregation Detroit
@@ -20,7 +23,7 @@ content: >-
   9321 Rosa Parks Blvd, Detroit, MI 48206
 
 
-  Sign up TODAY @ http://tiny.cc/360Events2023
+  Sign up TODAY @ http://tiny.cc/360Events
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.
@@ -30,5 +33,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/copy-of-run-on-dec-8-holiday-celebration.jpg
+image: /img/1-3-24-zumba-yoga-1-.jpg
 ---

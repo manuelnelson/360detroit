@@ -5,16 +5,16 @@ content: >-
   ### See What's Happening!
 
 
-  C﻿ome out for DANCE and YOGA!
+  C﻿ome out for the Community Meeting and Hustle Dance!
 
 
-  **January 3**
+  **January 10**
 
 
-  6﻿:00pm Zumba
+  6﻿:00pm Community Meeting
 
 
-  7﻿:30pm Yoga
+  7﻿:15pm Hustle Dance 
 
 
   T﻿he Congregation Detroit
@@ -33,5 +33,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/1-3-24-zumba-yoga-1-.jpg
+image: /img/jan-10-comm-mtg-hustle.jpg
 ---

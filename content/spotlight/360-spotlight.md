@@ -22,5 +22,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/jan-13-hustlezumbaart.jpg
+image: /img/2.jpg
 ---

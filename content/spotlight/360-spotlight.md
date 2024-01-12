@@ -5,28 +5,14 @@ content: >-
   ### See What's Happening!
 
 
-  Join us for HUSTLE, ZUMBA & ART!
 
 
-  **January 13**
+  Greetings!
+
+  Due to inclement weather, Saturday's sessions have been canceled. Please be safe. Enjoy your weekend!
 
 
-  11:30am Hustle Dance
-
-
-  1:00pm Zumba
-
-
-  2﻿:00pm Art
-
-
-  **T﻿he Congregation Detroit**
-
-
-  9321 Rosa Parks Blvd, Detroit, MI 48206
-
-
-  **Sign up TODAY @ http://tiny.cc/360Events**
+  **Sign up for events @ http://tiny.cc/360Events**
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.

@@ -5,25 +5,28 @@ content: >-
   ### See What's Happening!
 
 
-  C﻿ome out for the Community Meeting and Hustle Dance!
+  Join us for HUSTLE, ZUMBA & ART!
 
 
-  **January 10**
+  **January 13**
 
 
-  6﻿:00pm Community Meeting
+  11:30am Hustle Dance
 
 
-  7﻿:15pm Hustle Dance 
+  1:00pm Zumba
 
 
-  T﻿he Congregation Detroit
+  2﻿:00pm Art
+
+
+  **T﻿he Congregation Detroit**
 
 
   9321 Rosa Parks Blvd, Detroit, MI 48206
 
 
-  Sign up TODAY @ http://tiny.cc/360Events
+  **Sign up TODAY @ http://tiny.cc/360Events**
 
 
   360 Detroit, Inc. provides services that empower and improve the quality of life for individuals and families. We are dedicated to assisting people in becoming self-sufficient, anchored, stabilized and well-rounded community members.
@@ -33,5 +36,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/jan-10-comm-mtg-hustle.jpg
+image: /img/jan-13-hustlezumbaart.jpg
 ---

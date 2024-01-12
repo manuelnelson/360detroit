@@ -9,7 +9,7 @@ content: >-
 
   Greetings!
 
-  Due to inclement weather, Saturday's sessions have been canceled. Please be safe. Enjoy your weekend!
+  Due to inclement weather, Saturday's sessions have been cancelled. Please be safe. Enjoy your weekend!
 
 
   **Sign up for events @ http://tiny.cc/360Events**

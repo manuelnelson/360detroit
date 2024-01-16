@@ -5,11 +5,20 @@ content: >-
   ### See What's Happening!
 
 
+  ### 
+
+  Join us for this week's events
 
 
-  Greetings!
+  **January 17**
 
-  Due to inclement weather, Saturday's sessions have been cancelled. Please be safe. Enjoy your weekend!
+
+  **Zumba  6:00 pm
+
+  Yoga      7:30 pm**
+
+
+  **T﻿he Congregation Detroit - 9321 Rosa Parks Blvd, Detroit, MI 48206**
 
 
   **Sign up for events @ http://tiny.cc/360Events**
@@ -22,5 +31,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/2.jpg
+image: /img/jan-17-zumbayoga.jpg
 ---

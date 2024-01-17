@@ -5,17 +5,25 @@ content: >-
   ### See What's Happening!
 
 
-  ### 
-
-  Join us for this week's events
+  **J﻿oin us for our events!**
 
 
-  **January 17**
+  **J﻿anuary 17**
 
 
-  **Zumba  6:00 pm
+  Z﻿umba - 6pm
 
-  Yoga      7:30 pm**
+
+  Y﻿oga - 7:30pm
+
+
+  **J﻿anuary 24 and 31**
+
+
+  Hustle - 6pm
+
+
+  Y﻿oga - 7:30pm
 
 
   **T﻿he Congregation Detroit - 9321 Rosa Parks Blvd, Detroit, MI 48206**
@@ -31,5 +39,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/jan-17-zumbayoga.jpg
+image: /img/merged_document-18-.jpg
 ---

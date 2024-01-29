@@ -8,22 +8,34 @@ content: >-
   **J﻿oin us for our events!**
 
 
-  **J﻿anuary 17**
+  **J﻿anuary 31**
 
 
-  Z﻿umba - 6pm
+  Hustle - 6:00pm
+
+
+  Y﻿oga - 7:30pm
+
+
+  **February 7**
+
+
+  Zumba - 6:00pm
 
 
   Y﻿oga - 7:30pm
 
 
-  **J﻿anuary 24 and 31**
+  **F﻿ebruary 10**
 
 
-  Hustle - 6pm
+  H﻿ustle - 11:30am
 
 
-  Y﻿oga - 7:30pm
+  Z﻿umba - 1:00pm
+
+
+  A﻿rt - 2:00pm
 
 
   **T﻿he Congregation Detroit - 9321 Rosa Parks Blvd, Detroit, MI 48206**
@@ -39,5 +51,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-18-.jpg
+image: /img/merged_document-19-.jpg
 ---

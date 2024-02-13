@@ -8,16 +8,16 @@ content: >-
   **J﻿oin us for our events!**
 
 
-  **J﻿anuary 31**
+  **F﻿ebruary 14**
 
 
-  Hustle - 6:00pm
+  Community Meeting - 6pm
 
 
-  Y﻿oga - 7:30pm
+  H﻿ustle Dance - 7:15pm
 
 
-  **February 7**
+  **February 21**
 
 
   Zumba - 6:00pm
@@ -26,7 +26,7 @@ content: >-
   Y﻿oga - 7:30pm
 
 
-  **F﻿ebruary 10**
+  **F﻿ebruary 24**
 
 
   H﻿ustle - 11:30am
@@ -51,5 +51,5 @@ content: >-
 
 
   View [Our Brochure here](https://360detroitinc.org/360%20Detroit%20Brochure.pdf)!
-image: /img/merged_document-19-.jpg
+image: /img/merged_document-20-.jpg
 ---
